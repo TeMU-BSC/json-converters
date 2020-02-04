@@ -21,8 +21,11 @@ def reecToMesinespFormat(obj):
 
     ti_es = informationObj.get("tituloPublico")
     informationObj.pop("tituloPublico",None)
-    if not ti_es:
+    if  ti_es is None or not ti_es.strip(" "):
         ti_es = informationObj.get("tituloCientifico")
+
+    if ti_es:
+        ti_es = ti_es.strip(" ")    
     informationObj.pop("tituloCientifico",None)
 
     objToSend = {"_id":_id, "ti_es":ti_es}
@@ -32,7 +35,9 @@ def reecToMesinespFormat(obj):
     for key, value in informationObj.items():
         if i > 0:
             stringObj = stringObj + "\n\n"
-        stringObj = stringObj + str(value)
+        if value:
+            value = value.strip(" ")
+            stringObj = stringObj + str(value)
         i = i+1
 
     lang = getLang(stringObj)
