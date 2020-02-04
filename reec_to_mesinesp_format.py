@@ -70,7 +70,7 @@ def main(input_files_path, output_file_path):
 
         i = i + 1
 
-    outputFile.write(']ssss')
+    outputFile.write(']')
 
 
 if __name__ == '__main__':
