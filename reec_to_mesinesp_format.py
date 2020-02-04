@@ -41,9 +41,10 @@ def reecToMesinespFormat(obj):
     return objToSend
 
 def main(input_files_path, output_file_path):
-    files=[os.path.abspath(file) for file in glob.glob(input_files_path)] 
+    # files=[os.path.abspath(file) for file in glob.glob(input_files_path)] 
 
-    if not files:
+
+    if not input_files_path:
         print("Error:", input_files_path, "No files found,  Please  check the argument.")
         return -1
     
@@ -52,7 +53,7 @@ def main(input_files_path, output_file_path):
     outputFile.write('[')
     validDocs = 0
     i = 0
-    for file in files:
+    for file in input_files_path:
         with open(file) as input_file:
             content = input_file.read()
             jsonObj = json.loads(content)
@@ -66,7 +67,8 @@ def main(input_files_path, output_file_path):
 
                 validDocs = validDocs + 1
             else:
-                print("Error:",i,file,"Object empty\n")
+                # print("Error:",i,file,"Object empty\n")
+                pass
 
         i = i + 1
 
@@ -76,7 +78,7 @@ def main(input_files_path, output_file_path):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog ='reec_to_mesinesp_format.py',usage='%(prog)s [-i inputFolder.*json] [-o file.json]')
 
-    parser.add_argument('-i','--input',metavar='',type=str,required=True, help ='To define a name for input file.') 
+    parser.add_argument('-i','--input',metavar='', nargs='+', type=str,required=True, help ='To define a name for input file.') 
     parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
 
     args = parser.parse_args()
@@ -85,8 +87,7 @@ if __name__ == '__main__':
     output_file = args.output
     
     current_dir = os.getcwd()
-    input_path = os.path.join(current_dir,input_files)
     output_path = os.path.join(current_dir,output_file)
 
 
-    main(input_path,output_path)
+    main(input_files,output_path)
