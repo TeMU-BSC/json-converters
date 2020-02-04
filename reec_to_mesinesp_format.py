@@ -21,11 +21,13 @@ def reecToMesinespFormat(obj):
 
     ti_es = informationObj.get("tituloPublico")
     informationObj.pop("tituloPublico",None)
-    if  ti_es is None or not ti_es.strip(" "):
+    if  ti_es is None or not ti_es.strip(" ") or getLang(ti_es) != 'es':
         ti_es = informationObj.get("tituloCientifico")
 
-    if ti_es:
-        ti_es = ti_es.strip(" ")    
+    if ti_es and getLang(ti_es) == 'es':
+        ti_es = ti_es.strip(" ")   
+    else:
+        ti_es ="" 
     informationObj.pop("tituloCientifico",None)
 
     objToSend = {"_id":_id, "ti_es":ti_es}
@@ -66,7 +68,7 @@ def main(input_files_path, output_file_path):
 
             if mesinespFormat:
                 if validDocs > 0:
-                    outputFile.write(',')    
+                    outputFile.write(',\n')    
                 data_json = json.dumps(mesinespFormat,ensure_ascii=False)
                 outputFile.write(data_json)
 
@@ -74,7 +76,7 @@ def main(input_files_path, output_file_path):
             else:
                 # print("Error:",i,file,"Object empty\n")
                 pass
-
+        print(i)
         i = i + 1
 
     outputFile.write(']')
