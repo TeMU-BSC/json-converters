@@ -72,19 +72,6 @@ def patentesToMesinespFormat(obj):
         #lang = getLang(ab_es) if len(ab_es)>0 else ''
         objToSend = {"_id":_id, "ti_es":ti_es, "ab_es":ab_es, "lang":ab_es_l}
         print(objToSend)
-            
-            '''stringObj = ""
-            i = 0
-            for key, value in abstractObj.items():
-            if i > 0:
-                stringObj = stringObj + "\n\n"
-            if value:
-                value = value.strip(" ")
-                stringObj = stringObj + str(value)
-            i = i+1
-
-            lang = getLang(stringObj)
-            objToSend.update({"ab_es": stringObj,"lang":lang})'''
     
     return objToSend
 
