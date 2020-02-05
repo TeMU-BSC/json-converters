@@ -69,9 +69,9 @@ def patentesToMesinespFormat(obj):
                 ab_es ="" 
             #informationObj.pop("tituloCientifico",None)
 
-            #lang = getLang(ab_es) if len(ab_es)>0 else ''
-            objToSend = {"_id":_id, "ti_es":ti_es, "ab_es":ab_es, "lang":ab_es_l}
-            print(objToSend)
+        #lang = getLang(ab_es) if len(ab_es)>0 else ''
+        objToSend = {"_id":_id, "ti_es":ti_es, "ab_es":ab_es, "lang":ab_es_l}
+        print(objToSend)
             
             '''stringObj = ""
             i = 0
