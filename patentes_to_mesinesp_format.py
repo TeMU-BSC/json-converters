@@ -127,7 +127,13 @@ def main(input_files_path, output_file_path):
         print()
         i = i + 1
         
-        move(abs_path, output_file_path+'/'+os.path.basename(input_file.name)+'.json')
+        try:
+            move(abs_path, output_file_path+'/'+os.path.basename(input_file.name)+'.json')
+        except Exception as e:
+            print(e)
+            os.makedirs(output_file_path, exist_ok=True)
+            move(abs_path, output_file_path+'/'+os.path.basename(input_file.name)+'.json')
+            
         outputFile.close()
 
 
