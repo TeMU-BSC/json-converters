@@ -36,12 +36,10 @@ def patentesToMesinespFormat(obj):
         ti_es = ""
         for to in titleObj:
         
-            ti_es = to.get("text")
+            ti_es = to.get("text", None)
             to.pop("text",None)
             ti_es_l = to.get("language",None)
             to.pop("language",None)
-            '''if  ti_es is None or not ti_es.strip(" ") or getLang(ti_es) != 'es' or ti_es_l != 'es':
-                ti_es = ""#informationObj.get("tituloCientifico")'''
 
             #ti_lang = getLang(ti_es)
             if ti_es and ti_es.strip(" ") and (ti_es_l == 'es'):
@@ -49,17 +47,15 @@ def patentesToMesinespFormat(obj):
                 break;   
             else:
                 ti_es ="" 
-            #informationObj.pop("tituloCientifico",None)
             
-        ab_es = ""    
+        ab_es = ""
+        ab_es_l = ""    
         for ao in abstractObj:
         
             ab_es = ao.get("text",None)
             ao.pop("text",None)
-            ab_es_l = to.get("language", None)
+            ab_es_l = ao.get("language", None)
             ao.pop("language",None)
-            '''if  ab_es is None or not ab_es.strip(" ") or getLang(ab_es) != 'es' or ab_es_l != 'es':
-                ab_es = ""#informationObj.get("tituloCientifico")'''
             
             #ab_lang = getLang(ab_es)
             if ab_es and ab_es.strip(" ") and (ab_es_l == 'es'):
@@ -67,7 +63,6 @@ def patentesToMesinespFormat(obj):
                 break; 
             else:
                 ab_es ="" 
-            #informationObj.pop("tituloCientifico",None)
 
         #lang = getLang(ab_es) if len(ab_es)>0 else ''
         objToSend = {"_id":_id, "ti_es":ti_es, "ab_es":ab_es, "lang":ab_es_l}
@@ -97,7 +92,7 @@ def main(input_files_path, output_file_path):
                 for content in input_file:
                     jsonObj = json.loads(content)
                     mesinespFormatObj = patentesToMesinespFormat(jsonObj)
-                    mesinespFormat = mesinespFormatObj if (mesinespFormatObj.get("ti_es") != '' or mesinespFormatObj.get("lang") == 'es') else None
+                    mesinespFormat = mesinespFormatObj if (mesinespFormatObj.get("ti_es") != '' or mesinespFormatObj.get("ab_es") != '') else None
     
                     if mesinespFormat:
                         if validDocs > 0:
