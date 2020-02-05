@@ -85,7 +85,7 @@ def main(input_files_path, output_file_path):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog ='reec_to_mesinesp_format.py',usage='%(prog)s [-i inputFolder.*json] [-o file.json]')
 
-    parser.add_argument('-i','--input',metavar='', nargs='+', type=str,required=True, help ='To define a name for input file.') 
+    parser.add_argument('-i','--input',metavar='', nargs='+', type=str,required=True, help ='To define a name for input file/s.') 
     parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
 
     args = parser.parse_args()
