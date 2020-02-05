@@ -3,8 +3,8 @@ import json
 import glob
 import os
 import argparse
-from langdetect import detect
 import gzip
+from langdetect import detect
 from tempfile import mkstemp
 from shutil import move
 from os import fdopen
@@ -24,63 +24,68 @@ def getLang(text):
 
 
 def patentesToMesinespFormat(obj):
-    _id = obj["publication_number"]
-    titleObj = obj["title_localized"]
-    abstractObj = obj["abstract_localized"]
+    objToSend = dict()
 
-    ti_es = ""
-    for to in titleObj:
+    _id = obj.get("publication_number", None)#["publication_number"]
+    titleObj = obj.get("title_localized", None)#["title_localized"]
+    abstractObj = obj.get("abstract_localized", None)#["abstract_localized"]
+
+    if _id and titleObj and abstractObj:
         
-        ti_es = to.get("text")
-        to.pop("text",None)
-        ti_es_l = to.get("language")
-        to.pop("language",None)
-        '''if  ti_es is None or not ti_es.strip(" ") or getLang(ti_es) != 'es' or ti_es_l != 'es':
-            ti_es = ""#informationObj.get("tituloCientifico")'''
 
-        ti_lang = getLang(ti_es)
-        if ti_es and ti_es.strip(" ") and (ti_lang == 'es' or ti_es_l == 'es'):
-            ti_es = ti_es.strip(" ")
-            break;   
-        else:
-            ti_es ="" 
-        #informationObj.pop("tituloCientifico",None)
+        ti_es = ""
+        for to in titleObj:
+        
+            ti_es = to.get("text")
+            to.pop("text",None)
+            ti_es_l = to.get("language",None)
+            to.pop("language",None)
+            '''if  ti_es is None or not ti_es.strip(" ") or getLang(ti_es) != 'es' or ti_es_l != 'es':
+                ti_es = ""#informationObj.get("tituloCientifico")'''
+
+            #ti_lang = getLang(ti_es)
+            if ti_es and ti_es.strip(" ") and (ti_es_l == 'es'):
+                ti_es = ti_es.strip(" ")
+                break;   
+            else:
+                ti_es ="" 
+            #informationObj.pop("tituloCientifico",None)
+            
+        ab_es = ""    
+        for ao in abstractObj:
+        
+            ab_es = ao.get("text",None)
+            ao.pop("text",None)
+            ab_es_l = to.get("language", None)
+            ao.pop("language",None)
+            '''if  ab_es is None or not ab_es.strip(" ") or getLang(ab_es) != 'es' or ab_es_l != 'es':
+                ab_es = ""#informationObj.get("tituloCientifico")'''
+            
+            #ab_lang = getLang(ab_es)
+            if ab_es and ab_es.strip(" ") and (ab_es_l == 'es'):
+                ab_es = ab_es.strip(" ")  
+                break; 
+            else:
+                ab_es ="" 
+            #informationObj.pop("tituloCientifico",None)
+
+            #lang = getLang(ab_es) if len(ab_es)>0 else ''
+            objToSend = {"_id":_id, "ti_es":ti_es, "ab_es":ab_es, "lang":ab_es_l}
+            print(objToSend)
+            
+            '''stringObj = ""
+            i = 0
+            for key, value in abstractObj.items():
+            if i > 0:
+                stringObj = stringObj + "\n\n"
+            if value:
+                value = value.strip(" ")
+                stringObj = stringObj + str(value)
+            i = i+1
+
+            lang = getLang(stringObj)
+            objToSend.update({"ab_es": stringObj,"lang":lang})'''
     
-    ab_es = ""    
-    for ao in abstractObj:
-        
-        ab_es = ao.get("text")
-        ao.pop("text",None)
-        ab_es_l = to.get("language")
-        ao.pop("language",None)
-        '''if  ab_es is None or not ab_es.strip(" ") or getLang(ab_es) != 'es' or ab_es_l != 'es':
-            ab_es = ""#informationObj.get("tituloCientifico")'''
-        
-        ab_lang = getLang(ab_es)
-        if ab_es and ab_es.strip(" ") and (ab_lang == 'es' or ab_es_l == 'es'):
-            ab_es = ab_es.strip(" ")  
-            break; 
-        else:
-            ab_es ="" 
-        #informationObj.pop("tituloCientifico",None)
-
-    lang = getLang(ab_es) if len(ab_es)>0 else ''
-    objToSend = {"_id":_id, "ti_es":ti_es, "ab_es":ab_es, "lang":lang}
-    print(objToSend)
-    
-    '''stringObj = ""
-    i = 0
-    for key, value in abstractObj.items():
-        if i > 0:
-            stringObj = stringObj + "\n\n"
-        if value:
-            value = value.strip(" ")
-            stringObj = stringObj + str(value)
-        i = i+1
-
-    lang = getLang(stringObj)
-    objToSend.update({"ab_es": stringObj,"lang":lang})'''
-
     return objToSend
 
 
@@ -132,7 +137,7 @@ def main(input_files_path, output_file_path):
         except Exception as e:
             print(e)
             os.makedirs(output_file_path, exist_ok=True)
-            move(abs_path, output_file_path+'/'+os.path.basename(input_file.name)+'.json')
+            move(abs_path, os.path.join(output_file_path, os.path.basename(input_file.name)+'.json')) 
             
         outputFile.close()
 
