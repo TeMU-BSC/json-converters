@@ -127,7 +127,9 @@ if __name__ == '__main__':
     parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
     parser.add_argument('-t','--minTitle',metavar='', type=str,default=10, help ='Minimum length for title. (Defaul = 10)') 
     parser.add_argument('-a','--minAbs',metavar='',type=int, default=100, help ='Minimum length for abstract.(Defaul = 100)')  
-    parser.add_argument('--titleEs',metavar='',type=bool, default=True, help ='To get documents with language es.(Default = False)')  
+    parser.add_argument('--tiEs',metavar='',type=bool, default=True, help ='To get documents with title\'s language es.(Default = False)')
+    parser.add_argument('--abEs',metavar='',type=bool, default=True, help ='To get documents with abstract\'s language es.(Default = False)')  
+
 
 
     args = parser.parse_args()
