@@ -6,7 +6,7 @@ import argparse
 from langdetect import detect
 
 
-def getLang(text):
+def get_lang(text):
     try:
         lang = detect(text)  # detecting language, return string language type (es,pt,fr,en, etc...).
     except:
@@ -16,50 +16,50 @@ def getLang(text):
 
 
 
-def validDoc(jsonObj, minTitleLength, minAbsLenth, isTitleEs ,isAbsEs):
+def validDoc(json_obj, min_title_length, min_abs_length, is_title_es ,is_abs_es):
     
-    ti_es = jsonObj["ti_es"]
-    ab_es = jsonObj["ab_es"]
-    lang_ti = jsonObj["lang_ti"]
-    lang_ab = jsonObj["lang_ab"]
+    ti_es = json_obj["ti_es"]
+    ab_es = json_obj["ab_es"]
+    lang_ti = json_obj["lang_ti"]
+    lang_ab = json_obj["lang_ab"]
 
 
-    if (len(ti_es) < minTitleLength or
-        len(ab_es) < minTitleLength or
-        (isTitleEs and lang_ti != "es")or
-        (isAbsEs and lang_ab != "es")):
+    if (len(ti_es) < min_title_length or
+        len(ab_es) < min_title_length or
+        (is_title_es and lang_ti != "es")or
+        (is_abs_es and lang_ab != "es")):
 
         return False
 
 
     return True
 
-def get_title(informationObj):
+def get_title(information_obj):
 
-    ti_es = informationObj.get("tituloPublico")
-    informationObj.pop("tituloPublico",None)
-    if  ti_es is None or not ti_es.strip(" ") or getLang(ti_es) != 'es':
-        ti_es = informationObj.get("tituloCientifico")
+    ti_es = information_obj.get("tituloPublico")
+    information_obj.pop("tituloPublico",None)
+    if  ti_es is None or not ti_es.strip(" ") or get_lang(ti_es) != 'es':
+        ti_es = information_obj.get("tituloCientifico")
 
-    if ti_es and getLang(ti_es) == 'es':
+    if ti_es and get_lang(ti_es) == 'es':
         ti_es = ti_es.strip(" ")   
     else:
         ti_es ="" 
 
     return ti_es
 
-def reecToMesinespFormat(obj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
+def reec_to_mesinesp_format(obj,min_title_length, min_abs_Length, is_title_es,is_abs_es):
     _id = obj["identificador"]
-    informationObj = obj["informacion"]
+    information_obj = obj["informacion"]
 
-    title = get_title(informationObj)
-    objToSend = {"_id":_id, "ti_es":title}
+    title = get_title(information_obj)
+    obj_to_send = {"_id":_id, "ti_es":title}
 
-    informationObj.pop("tituloCientifico",None)
-    informationObj.pop("tituloPublico",None)
+    information_obj.pop("tituloCientifico",None)
+    information_obj.pop("tituloPublico",None)
     abstract = ""
     validValue = False
-    for key, value in informationObj.items():
+    for key, value in information_obj.items():
         if validValue:
             abstract = abstract + "\n\n"
             validValue = False
@@ -69,20 +69,20 @@ def reecToMesinespFormat(obj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
             validValue = True
 
 
-    lang_ab = getLang(abstract)
-    lang_ti = getLang(abstract)
+    lang_ab = get_lang(abstract)
+    lang_ti = get_lang(abstract)
 
 
-    objToSend.update({"ab_es": abstract,"lang_ab":lang_ab,"lang_ti":lang_ti })
+    obj_to_send.update({"ab_es": abstract,"lang_ab":lang_ab,"lang_ti":lang_ti })
     
-    if  validDoc(objToSend, minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
-       return objToSend
+    if  validDoc(obj_to_send, min_title_length, min_abs_Length, is_title_es,is_abs_es):
+       return obj_to_send
     else:
         return None
 
 
 
-def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
+def main(input_files, output_file_path, min_title_length, min_abs_Length, is_title_es,is_abs_es):
     # files=[os.path.abspath(file) for file in glob.glob(input_files_path)] 
 
     print("- Parsing and writing parsed records into the file -> ",output_file_path)
@@ -92,7 +92,7 @@ def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,i
     totalRecords = len(input_files)
 
     validDoc = False
-    j = 0;
+    j = 0
     for i, file in enumerate(input_files):
         if validDoc:
             oFile.write(",\n")
@@ -100,12 +100,12 @@ def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,i
 
         with open(file) as input_file:
             content = input_file.read()
-            jsonObj = json.loads(content)
-            mesinespFormat = reecToMesinespFormat(jsonObj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs)
+            json_obj = json.loads(content)
+            mesinesp_format = reec_to_mesinesp_format(json_obj,min_title_length, min_abs_Length, is_title_es,is_abs_es)
 
-            if mesinespFormat:   
-                jsonObj = json.dumps(mesinespFormat,ensure_ascii=False)
-                oFile.write(jsonObj)
+            if mesinesp_format:   
+                json_obj = json.dumps(mesinesp_format,ensure_ascii=False)
+                oFile.write(json_obj)
                 validDoc = True
                 j = j +1
             else:
@@ -127,8 +127,8 @@ if __name__ == '__main__':
     parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
     parser.add_argument('-t','--minTitle',metavar='', type=str,default=10, help ='Minimum length for title. (Defaul = 10)') 
     parser.add_argument('-a','--minAbs',metavar='',type=int, default=100, help ='Minimum length for abstract.(Defaul = 100)')  
-    parser.add_argument('--tiEs',metavar='',type=bool, default=True, help ='To get documents with title\'s language es.(Default = False)')
-    parser.add_argument('--abEs',metavar='',type=bool, default=True, help ='To get documents with abstract\'s language es.(Default = False)')  
+    parser.add_argument('--ti_es',action='store_true', help ='To get documents with title\'s language es.(Default = False)')
+    parser.add_argument('--ab_es',action='store_true', help ='To get documents with abstract\'s language es.(Default = False)')  
 
 
 
@@ -136,14 +136,13 @@ if __name__ == '__main__':
 
     input_files = args.input
     output_file = args.output
-    minTitleLength = args.minTitle
-    minAbsLenth = args.minAbs
-    isTitleEs = args.tiEs
-    isAbsEs = args.abEs
+    min_title_length = args.minTitle
+    min_abs_Length = args.minAbs
+    is_title_es = args.ti_es
+    is_abs_es = args.ab_es
 
 
     current_dir = os.getcwd()
     output_path = os.path.join(current_dir,output_file)
    
-    
-    main(input_files,output_path,  minTitleLength, minAbsLenth, isTitleEs,isAbsEs)
+    main(input_files,output_path,  min_title_length, min_abs_Length, is_title_es,is_abs_es)
