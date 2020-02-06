@@ -63,7 +63,7 @@ def reecToMesinespFormat(obj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
         if validValue:
             abstract = abstract + "\n\n"
             validValue = False
-        if value :
+        if value and value.strip(" "):
             value = value.strip(" ")
             abstract = abstract + str(value)
             validValue = True
@@ -82,7 +82,7 @@ def reecToMesinespFormat(obj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
 
 
 
-def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,isAbsEs=False):
+def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
     # files=[os.path.abspath(file) for file in glob.glob(input_files_path)] 
 
     print("- Parsing and writing parsed records into the file -> ",output_file_path)
@@ -138,10 +138,12 @@ if __name__ == '__main__':
     output_file = args.output
     minTitleLength = args.minTitle
     minAbsLenth = args.minAbs
-    isTitleEs = args.titleEs
+    isTitleEs = args.tiEs
+    isAbsEs = args.abEs
+
 
     current_dir = os.getcwd()
     output_path = os.path.join(current_dir,output_file)
    
     
-    main(input_files,output_path,  minTitleLength, minAbsLenth, isTitleEs)
+    main(input_files,output_path,  minTitleLength, minAbsLenth, isTitleEs,isAbsEs)
