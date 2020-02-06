@@ -15,59 +15,115 @@ def getLang(text):
     return lang
 
 
-def validDoc(jsonObj, minTitleLength, minAbsLenth, isTitleEs):
 
+def validDoc(jsonObj, minTitleLength, minAbsLenth, isTitleEs ,isAbsEs):
+    
     ti_es = jsonObj["ti_es"]
     ab_es = jsonObj["ab_es"]
-    lang_ti = jsonObj["lang"]
+    lang_ti = jsonObj["lang_ti"]
+    lang_ab = jsonObj["lang_ab"]
+
 
     if (len(ti_es) < minTitleLength or
         len(ab_es) < minTitleLength or
-        (isTitleEs and lang_ti != "es")):
+        (isTitleEs and lang_ti != "es")or
+        (isAbsEs and lang_ab != "es")):
 
         return False
 
 
     return True
 
+def get_title(informationObj):
+
+    ti_es = informationObj.get("tituloPublico")
+    informationObj.pop("tituloPublico",None)
+    if  ti_es is None or not ti_es.strip(" ") or getLang(ti_es) != 'es':
+        ti_es = informationObj.get("tituloCientifico")
+
+    if ti_es and getLang(ti_es) == 'es':
+        ti_es = ti_es.strip(" ")   
+    else:
+        ti_es ="" 
+
+    return ti_es
+
+def reecToMesinespFormat(obj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
+    _id = obj["identificador"]
+    informationObj = obj["informacion"]
+
+    title = get_title(informationObj)
+    objToSend = {"_id":_id, "ti_es":title}
+
+    informationObj.pop("tituloCientifico",None)
+    informationObj.pop("tituloPublico",None)
+    abstract = ""
+    validValue = False
+    for key, value in informationObj.items():
+        if validValue:
+            abstract = abstract + "\n\n"
+            validValue = False
+        if value :
+            value = value.strip(" ")
+            abstract = abstract + str(value)
+            validValue = True
 
 
+    lang_ab = getLang(abstract)
+    lang_ti = getLang(abstract)
 
-def main(input_path,ouput_path, minTitleLength, minAbsLenth, isTitleEs):
 
+    objToSend.update({"ab_es": abstract,"lang_ab":lang_ab,"lang_ti":lang_ti })
     
-  
-    newObjsList = []
-    totalRecords = None
-    with open(input_path) as file:
-        print("- Parsing all documents")
-        content = file.read()
-        listJsonObj = json.loads(content)
-        totalRecords = len(listJsonObj)
-        newObjsList = [jsonObj for jsonObj in listJsonObj if validDoc(jsonObj, minTitleLength, minAbsLenth, isTitleEs) ]
+    if  validDoc(objToSend, minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
+       return objToSend
+    else:
+        return None
 
 
-    oFile = open(ouput_path,'w')
+
+def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,isAbsEs=False):
+    # files=[os.path.abspath(file) for file in glob.glob(input_files_path)] 
+
+    print("- Parsing and writing parsed records into the file -> ",output_file_path)
+
+    oFile = open(output_file_path,'w')
     oFile.write('[')
-    print("\n- Writing parsed records into the file", ouput_path)
-    for i, obj in enumerate(newObjsList):
-        jsonObj = json.dumps(obj,ensure_ascii=False)
-        oFile.write(jsonObj)
-        oFile.write(",\n")
+    totalRecords = len(input_files)
+
+    validDoc = False
+    j = 0;
+    for i, file in enumerate(input_files):
+        if validDoc:
+            oFile.write(",\n")
+            validDoc = False
+
+        with open(file) as input_file:
+            content = input_file.read()
+            jsonObj = json.loads(content)
+            mesinespFormat = reecToMesinespFormat(jsonObj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs)
+
+            if mesinespFormat:   
+                jsonObj = json.dumps(mesinespFormat,ensure_ascii=False)
+                oFile.write(jsonObj)
+                validDoc = True
+                j = j +1
+            else:
+                print("Ivalid Document:",i,file,"\n")
+                pass
+        print(i)
 
     oFile.write(']')
     oFile.close()
 
     print("\n- Done")
-    print(f"- Total records: (Old - {totalRecords})\t (New - {len(newObjsList)})")
+    print(f"- Total records: (Old - {totalRecords})\t (New - {j})")
  
-
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog ='reec_to_mesinesp_format.py',usage='%(prog)s [-i inputFolder.*json] [-o file.json]')
 
-    parser.add_argument('-i','--input',metavar='', type=str,required=True, help ='To define a name for input file.') 
+    parser.add_argument('-i','--input',metavar='', nargs="+", type=str,required=True, help ='Files to parse.') 
     parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
     parser.add_argument('-t','--minTitle',metavar='', type=str,default=10, help ='Minimum length for title. (Defaul = 10)') 
     parser.add_argument('-a','--minAbs',metavar='',type=int, default=100, help ='Minimum length for abstract.(Defaul = 100)')  
@@ -83,10 +139,7 @@ if __name__ == '__main__':
     isTitleEs = args.titleEs
 
     current_dir = os.getcwd()
-    input_path = os.path.join(current_dir,input_files)
     output_path = os.path.join(current_dir,output_file)
-
-
+   
     
-    
-    main(input_path,output_path,  minTitleLength, minAbsLenth, isTitleEs)
+    main(input_files,output_path,  minTitleLength, minAbsLenth, isTitleEs)

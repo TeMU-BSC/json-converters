@@ -56,9 +56,7 @@ def main(input_files_path, output_file_path):
         return -1
     
 
-    outputFile = open(output_file_path,'w')
-    outputFile.write('[')
-    validDocs = 0
+    jsonObjsList = []
     i = 0
     for file in input_files_path:
         with open(file) as input_file:
@@ -66,27 +64,21 @@ def main(input_files_path, output_file_path):
             jsonObj = json.loads(content)
             mesinespFormat = reecToMesinespFormat(jsonObj)
 
-            if mesinespFormat:
-                if validDocs > 0:
-                    outputFile.write(',\n')    
-                data_json = json.dumps(mesinespFormat,ensure_ascii=False)
+            if mesinespFormat:   
+                jsonObjsList.push(mesinespFormat) 
                 outputFile.write(data_json)
-
-                validDocs = validDocs + 1
             else:
-                # print("Error:",i,file,"Object empty\n")
+                print("Error:",i,file,"Object empty\n")
                 pass
         print(i)
         i = i + 1
-
-    outputFile.write(']')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog ='reec_to_mesinesp_format.py',usage='%(prog)s [-i inputFolder.*json] [-o file.json]')
 
     parser.add_argument('-i','--input',metavar='', nargs='+', type=str,required=True, help ='To define a name for input file/s.') 
-    parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
+    parser.add_argument('-o','--output',metavar='',type=str, default=None, help ='To define a name for output file.')  
 
     args = parser.parse_args()
 
