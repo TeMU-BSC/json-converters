@@ -6,7 +6,6 @@ import argparse
 from langdetect import detect
 
 
-
 def getLang(text):
     try:
         lang = detect(text)  # detecting language, return string language type (es,pt,fr,en, etc...).
@@ -15,9 +14,27 @@ def getLang(text):
 
     return lang
 
-def reecToMesinespFormat(obj):
-    _id = obj["identificador"]
-    informationObj = obj["informacion"]
+
+
+def validDoc(jsonObj, minTitleLength, minAbsLenth, isTitleEs ,isAbsEs):
+    
+    ti_es = jsonObj["ti_es"]
+    ab_es = jsonObj["ab_es"]
+    lang_ti = jsonObj["lang_ti"]
+    lang_ab = jsonObj["lang_ab"]
+
+
+    if (len(ti_es) < minTitleLength or
+        len(ab_es) < minTitleLength or
+        (isTitleEs and lang_ti != "es")or
+        (isAbsEs and lang_ab != "es")):
+
+        return False
+
+
+    return True
+
+def get_title(informationObj):
 
     ti_es = informationObj.get("tituloPublico")
     informationObj.pop("tituloPublico",None)
@@ -28,65 +45,105 @@ def reecToMesinespFormat(obj):
         ti_es = ti_es.strip(" ")   
     else:
         ti_es ="" 
+
+    return ti_es
+
+def reecToMesinespFormat(obj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
+    _id = obj["identificador"]
+    informationObj = obj["informacion"]
+
+    title = get_title(informationObj)
+    objToSend = {"_id":_id, "ti_es":title}
+
     informationObj.pop("tituloCientifico",None)
-
-    objToSend = {"_id":_id, "ti_es":ti_es}
-    
-    stringObj = ""
-    i = 0
+    informationObj.pop("tituloPublico",None)
+    abstract = ""
+    validValue = False
     for key, value in informationObj.items():
-        if i > 0:
-            stringObj = stringObj + "\n\n"
-        if value:
+        if validValue:
+            abstract = abstract + "\n\n"
+            validValue = False
+        if value and value.strip(" "):
             value = value.strip(" ")
-            stringObj = stringObj + str(value)
-        i = i+1
+            abstract = abstract + str(value)
+            validValue = True
 
-    lang = getLang(stringObj)
-    objToSend.update({"ab_es": stringObj,"lang":lang})
 
-    return objToSend
+    lang_ab = getLang(abstract)
+    lang_ti = getLang(abstract)
 
-def main(input_files_path, output_file_path):
+
+    objToSend.update({"ab_es": abstract,"lang_ab":lang_ab,"lang_ti":lang_ti })
+    
+    if  validDoc(objToSend, minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
+       return objToSend
+    else:
+        return None
+
+
+
+def main(input_files, output_file_path, minTitleLength, minAbsLenth, isTitleEs,isAbsEs):
     # files=[os.path.abspath(file) for file in glob.glob(input_files_path)] 
 
+    print("- Parsing and writing parsed records into the file -> ",output_file_path)
 
-    if not input_files_path:
-        print("Error:", input_files_path, "No files found,  Please  check the argument.")
-        return -1
-    
+    oFile = open(output_file_path,'w')
+    oFile.write('[')
+    totalRecords = len(input_files)
 
-    jsonObjsList = []
-    i = 0
-    for file in input_files_path:
+    validDoc = False
+    j = 0;
+    for i, file in enumerate(input_files):
+        if validDoc:
+            oFile.write(",\n")
+            validDoc = False
+
         with open(file) as input_file:
             content = input_file.read()
             jsonObj = json.loads(content)
-            mesinespFormat = reecToMesinespFormat(jsonObj)
+            mesinespFormat = reecToMesinespFormat(jsonObj,minTitleLength, minAbsLenth, isTitleEs,isAbsEs)
 
             if mesinespFormat:   
-                jsonObjsList.push(mesinespFormat) 
-                outputFile.write(data_json)
+                jsonObj = json.dumps(mesinespFormat,ensure_ascii=False)
+                oFile.write(jsonObj)
+                validDoc = True
+                j = j +1
             else:
-                print("Error:",i,file,"Object empty\n")
+                print("Ivalid Document:",i,file,"\n")
                 pass
         print(i)
-        i = i + 1
 
+    oFile.write(']')
+    oFile.close()
+
+    print("\n- Done")
+    print(f"- Total records: (Old - {totalRecords})\t (New - {j})")
+ 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog ='reec_to_mesinesp_format.py',usage='%(prog)s [-i inputFolder.*json] [-o file.json]')
 
-    parser.add_argument('-i','--input',metavar='', nargs='+', type=str,required=True, help ='To define a name for input file/s.') 
-    parser.add_argument('-o','--output',metavar='',type=str, default=None, help ='To define a name for output file.')  
+    parser.add_argument('-i','--input',metavar='', nargs="+", type=str,required=True, help ='Files to parse.') 
+    parser.add_argument('-o','--output',metavar='',type=str,required=True, help ='To define a name for output file.')  
+    parser.add_argument('-t','--minTitle',metavar='', type=str,default=10, help ='Minimum length for title. (Defaul = 10)') 
+    parser.add_argument('-a','--minAbs',metavar='',type=int, default=100, help ='Minimum length for abstract.(Defaul = 100)')  
+    parser.add_argument('--tiEs',metavar='',type=bool, default=True, help ='To get documents with title\'s language es.(Default = False)')
+    parser.add_argument('--abEs',metavar='',type=bool, default=True, help ='To get documents with abstract\'s language es.(Default = False)')  
+
+
 
     args = parser.parse_args()
 
     input_files = args.input
     output_file = args.output
-    
+    minTitleLength = args.minTitle
+    minAbsLenth = args.minAbs
+    isTitleEs = args.tiEs
+    isAbsEs = args.abEs
+
+
     current_dir = os.getcwd()
     output_path = os.path.join(current_dir,output_file)
-
-
-    main(input_files,output_path)
+   
+    
+    main(input_files,output_path,  minTitleLength, minAbsLenth, isTitleEs,isAbsEs)
