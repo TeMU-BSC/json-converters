@@ -109,7 +109,7 @@ def main(input_files, output_file_path, min_title_length, min_abs_Length, is_tit
                 validDoc = True
                 j = j +1
             else:
-                print("Ivalid Document:",i,file,"\n")
+                print("\nInvalid Document:",i,file,"\n")
                 pass
         print(i)
 
