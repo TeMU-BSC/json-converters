@@ -16,14 +16,14 @@ import click
 @click.command()
 @click.argument('input-files', type=click.File('r'), nargs=-1)
 @click.argument('output-dir', type=click.Path(exists=True))
-@click.option('--lang', multiple=True,
+@click.option('--languages', multiple=True,
               help='Language two-letter codes to filter, for example: es en.')
 @click.option('--encoding', default='utf-8', help='Encoding format.')
 @click.option('--ensure-ascii', default=False, help='Force writing only ASCII \
               characters, for exmaple, no graphical accents allowed.')
 @click.option('--separators', default=(',', ':'), help='Encoding format.')
 def read_gz_and_write_json(input_files, output_dir,
-                           lang, encoding, ensure_ascii, separators):
+                           languages, encoding, ensure_ascii, separators):
     '''Read some gz files, for each file convert its content from patent's
     json schema to mesinesp's json schema, and finally write a json array file
     with a patent per object with the same filename as its corresponding gz
@@ -37,16 +37,16 @@ def read_gz_and_write_json(input_files, output_dir,
         # Each line of the input file is a patent.
         if extension == '.gz':
             with gzip.open(file.name, 'r') as f:
-                content = f.readlines()
+                lines = f.readlines()
         else:
             with open(file.name, 'r') as f:
-                content = f.readlines()
-        patents = [json.loads(line) for line in content]
+                lines = f.readlines()
+        patents = [json.loads(line) for line in lines]
 
         # Python3.8 Assignment Expression (Walrus operator ':=') to avoid
         # calling the function twice.
         mesinesps = [mesinesp for patent in patents
-                     if (mesinesp := convert_patent_to_mesinesp(patent, lang))]
+                     if (mesinesp := convert_patent_to_mesinesp_format(patent, languages))]
 
         # Write to output file
         output_filename = filename.replace(extension, '.json')
@@ -57,13 +57,13 @@ def read_gz_and_write_json(input_files, output_dir,
         print(filename, f'[ {i} of {len(input_files)} ]')
 
 
-def convert_patent_to_mesinesp(patent: dict, lang: tuple) -> dict:
-    '''Convert patent json schema to mesinesp json schema.'''
+def convert_patent_to_mesinesp_format(patent: dict, languages: tuple) -> dict:
+    '''Convert patent json schema to mesinesp json schema filtering by languages ISO codes.'''
     mesinesp = dict()
     ti_es = [title.get('text') for title in patent.get('title_localized')
-             if title.get('language') in lang]
+             if title.get('language') in languages]
     ab_es = [abstract.get('text') for abstract in patent.get('abstract_localized')
-             if abstract.get('language') in lang]
+             if abstract.get('language') in languages]
     ipc_codes = [ipc.get('code') for ipc in patent.get('ipc')
                  if ti_es and ab_es]
     if ti_es and ab_es:
