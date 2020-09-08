@@ -46,7 +46,7 @@ def brat_to_prodigy(txt_file, ann_file) -> dict:
     for ann in annotations:
         middle = ann['middle_section'].split(' ')
         note = next((note['note'] for note in notes if note['middle_section'].split(' ')[1] == ann['ann_id']), None)
-        span = dict(start=middle[1], end=middle[2], label=middle[0], note=note)
+        span = dict(start=int(middle[1]), end=int(middle[2]), label=middle[0], note=note)
         spans.append(span)
 
     prodigy_format = dict(text=text, spans=spans)
