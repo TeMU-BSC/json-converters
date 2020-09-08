@@ -1,0 +1,147 @@
+_LOCATION_
+Tel. _CONTACT_
+_LOCATION_
+Nº Història Clínica: _ID_
+Cognoms, Nom: _NAME_
+NºEpisodi: _ID_
+CIP: _ID_
+Sexe: Dona
+Data de Naixement: _DATE_   Edat: 78 Anys
+NIF/DNI: _ID_Informe d'alta d'hospitalització
+09:22:41
+31.01.2017
+_LOCATION_
+_SS_
+UNITAT FUNCIONAL D'ICTUS
+CP
+ABS
+Servei Data d'alta
+_LOCATION_
+_CONTACT_; _CONTACT_
+ATEN.PRIMÀRIA 28.01.2017
+_NAME_
+Adreça
+Telèfon Procedència Data d'ingrés Atès per
+
+
+
+MOTIU D'INGRÉS
+Disartria.
+
+ANTECEDENTS
+NAMC.
+FRCV: HTA, DLP, Trastorno afectivo mixto. Ansiedad y depresión en remisión.
+
+Situación basal: Rankin previo 0, vive sola en _LOCATION_. Tiene familia cerca.
+
+MEDICACIÓ HABITUAL
+Hipertene 20 mg 1 cp/24 hs; Mirtazapaina 15 mg 1 cp/24 hs; Simvastatina 20 mg 1 cp/24 hs; Trankimazin 0,5 mg 1 cp/24 hs; Tranxilium 10 mg 1 cp/24 hs
+
+PROCÉS ACTUAL
+Mujer de 78 años ingresada por CODIGO ICTUS, activado en urgencias a las 10:15 el día 28/01. Comenta que desde aproximadamente 08:00 am del 28/01 sintió sensación de falta de fuerza en miembro superior derecho pero que al darle poca importancia continuó con su rutina diaria pero al notar que continuaba igual, va al baño evidencia desviación de comisura labial por lo que llama a sus familiares y nota dificultad para articular palabras , su vecino la lleva al CAP y es derivada a este centro. Comenta tambien que hace varias semanas ha presentado sensación de parestesias de predomino distal en manos. Activa codi Ictus urgències HTVc a les 10:15. Avaluació NRL 10:30 h, peticio TC 10:15, realització 11:10 h.
+
+EXPLORACIÓ FÍSICA
+
+Primera valoración NRL:
+Exploració Física/NRL: TA 160/89 FC 80x ta: 36.9ºC glicemia 94  Sat O2 100%
+Pacient cosncient i orientada, disartria lleu-moderada sense elements afàsics, oculomotors i campimetria per conforntació normal, destaca paresia facial cenrtal dreta, no objectivo clara focalitat motora, sensibilitat i cerebel sense alteracions, RCP flexor bilateral, marxa no explorada.
+NIHSS (0-0-0)0-0/2(0-0)(0-0)/0-0-1-0- 0=3.
+Auscultació cardiaca ritmica sense bufs, bons polsos carotidis sense bufs, polsos perifèrics i temporals sense alteraicons. Auscultació pulmonar sense alteracions. Abdomen anodí.
+
+Valoración en planta:
+Paciente  orientada,  aparente  buen  estado  general,  refiere  mantener  sensación  de  mareo/inestabilidad al levantarse y sentir miedo de caerse a la marcha pero sin dificultad para realizarla.
+AC: Rítmicos no soplos, no dolor ni palpitaciones, no disnea. AP: MVC sin ruidos agregados, eupneica en reposo.
+Abd: blando no doloroso.
+
+Informe d'alta d'hospitalització
+
+
+
+
+NRL:  leve  desviación  de  comisura  facial  izquierda,  no  disartria,  pupilas  isocóricas  reactivas  con  reflejos conservados, no alteraciones sensitivas ni motoras. no hemiparesia. Marcha sin alteraciones.
+
+NIHSS 1, Rankin 1.
+
+EXPLORACIÓ COMPLEMENTÀRIA
+En urgencias:
+-	Anàlisi de sang: Destaca Hb de 16.8 gr/Dl, amb Hto del 49% i lleugera plaquetopenia. Leucos normals, hemostasia i BQ bàsica sense alteracions. (reviso i a una analitica del 2015 ja tenia una plaquetopenia lleu de 100.000)
+-	ECG: Ritmo sinusal a 70 lpm; PR normal (160 mseg); QRS 80 mseg; No alteraciones en la repolarización
+-	TC de crani: normal, ASPECTS 10.
+
+En planta:
+
+Analítica 30/01/2017: glucosa 81, urea 42, creatinina 0.62, colesterol 151, HDL 54.5, LDL 79.90, triglicéridos 83,
+urato 4.0, AAST 22, ALT 14, GGT 12, LDH 281, bilirrubina 0.5, FA 56, albúmina 3.9, proteina 6.3, calcio 9.2, sodio
+141, potasio 4.1, hb 15.3, htco 44 %, leucocitos 4.83, neutrófilos 2.66, plaquetas 119.000. resto aún pendiente.
+Eco TSA: Discreto aumento intimal, pero no patológico (<1 mm) ECOcardio : No alteraciones significatives. FEVI 58% EVOLUCIÓ CLÍNICA
+Ingreso de mujer de 78 años con ictus del despertar de características lacunares.
+Cursa su estadía en planta sin presentar complicaciones, durante las primeras 24 horas presenta mejoría significativa. A la visita en planta se objetiva desviación leve de comisura labial izquierda con NIHSS de 1 y Rankin 1.
+
+El estudio vascular no mostró ateromatosis carotídea significativa ni cardiopatia estructural mayor. Dada la estabilidad, se decide alta y seguimiento ambulatorio.
+
+DIAGNÒSTICS
+434.91/8 Infart lacunar - Ictus isquèmic clínicament LACI 401.9/2 HTA
+300.00/2 Ansietat 351.8/1 Paresia facial
+784.51 Disartria
+
+
+PROCEDIMENTS
+EDTSA
+ECOcardio
+
+Informe d'alta d'hospitalització
+
+
+
+
+ECG
+Activació Codi Ictus
+
+TRACTAMENT I RECOMANACIONS A L'ALTA
+Asociar Disgren 600 mg 1 al día. Resto de tratamiento igual.
+
+CONTROL
+Control por CEX de NRL  (le avisarán) Control por su MAP.
+
+
+
+DESTINACIÓ A L'ALTA:	A DOMICILI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Validat per: _NAME_	Col·legiat: _ID_
+
+31.01.2017
+Pàgina 1 de 3

@@ -1,0 +1,123 @@
+_LOCATION_
+_LOCATION_) Anul·lació/Reprogramació visites:_CONTACT_
+Telèfon Centraleta: _CONTACT_
+Nº Història Clínica: _ID_
+Cognoms, Nom: _NAME_
+NºEpisodi: _ID_
+CIP: _ID_
+Sexe: Home
+Data de Naixement: _DATE_   Edat: 62 Anys
+NIF/DNI: _ID__NAME_; _NAME_;; 
+_NAME_; _NAME_
+Informe d'alta d'hospitalització
+CP	_LOCATION_
+ABS	_SS_
+Servei	NEUROLOGIA
+Data d'alta  26.01.2017	16:20:28
+_LOCATION_
+_CONTACT_
+DOMICIL/RES.SOC 17.01.2017
+Adreça
+Telèfon Procedència Data d'ingrés Atès per
+
+
+
+MOTIU D'INGRÉS
+Varón de 62 que ingresa como ictus ACP derecha tratado con trombolisis en fase aguda.
+
+ANTECEDENTS
+No alergias medicamentosas conocidas No hábitos tóxicos
+FRCV: HTA en tratamiento con difícil control, descartada HTA secundaria. DLP en tratamiento. No otros antecedentes relevantes.
+Hernia diafragmática
+Antecedentes quirúrgicos: IQ: Herniorrafia inguinal.
+
+Situación basal: Rankin:0, vida activa, jubilado, trabajaba como bombero. Vive con su mujer.
+
+MEDICACIÓ HABITUAL
+AFLUON  0,5MG/ML  AZELASTINA,CLORHIDRATO	1  x  12  h.  AMLODIPINO  ALMUS  5MG  '	1  x  12  h. ATORVASTATINA DAVUR 80MG   1 x 24 h.  IXIA PLUS 40/12,5MG   OLMESARTAN MEDOXOMIL + DIURETIC
+1 x 24 h.
+
+
+PROCÉS ACTUAL
+Paciente que ingresa en NRL por cuadro iniciado el pasado 17 de Enero aproximadamente a las 12:30, de debilidad de extremidades izquierdas con caída, por lo que familiares avisan a SEM quien activa Código Ictus a las 12:55. Llega a _SS_ a las 13:20.
+
+A su llegada a Urgencias TA:178/107, FC:79lpm, Ritmo sinusal por monitor. A la primera exploración neurológica paciente consciente, orientado. Lenguaje y habla sin alteraciones. TOC a la Derecha que sobrepasa linea media (1). HHI (2). Simetría facial. Hemiparesia izquierda B 4/5, C 5-/5 (1). Anestesia Izquierda (2). No agnosias. RCP extensor I. Se realiza analítica en la que destaca ALT elevada 1.26 ukat/L sin otros hallazgos de interés. ECG en RS y Rx de Tórax con hilios engrosados y signos de redistribución vascular.TC a las 13:38 que informa de ASPECTS 10. ACP P1 Derecha con presencia de mismatch en todo el territorio.
+
+Se orienta como ictus ACP Derecha. En ausencia de contraindicaciones, se inicia rTPA (Bolus 8mg + Perfusión 74mg), retrasada por cifras tensionales elevadas, se administran 25mg de Labetalol. TA al iniciar medicación: 175/107. Se comenta con NRL Vascular, se decide Trombectomía. Llega a la sala a las 14:30, punción 14:35. A la primera serie (14:42) se objectiva recanalización parcial TICI 1, en ese momento NIHSS 3 con mejoría de la hemianopsia y de la sensibilidad en EII. Se reinicia rtPA y se decide esperar su paso completo para revalorar angiográficamente, con recanalización TICI 3. En ese momento NIHSS 2 con campimetria normal con MOEs normales, parèsia ESE 5-/5 con desaferentitzación y hemihipoestesia severa (2). Ingresa en Unidad de ictus.
+
+EXPLORACIÓ FÍSICA
+
+Informe d'alta d'hospitalització
+
+
+
+
+
+TA 156/86 FC 81x' Tª 36.8  Sat 98%
+NRL: consciente y orientado en TEP. Habla y lenguaje sin alteraciones. MOEs ok, no HH. No PF. Resto de PPCC correctos. Fuerza no alterada. Hiposensibilidad hemicuerpo izquierdo (1). RCP flexor bilateral. NIHSS 1.
+AC: TCR sin soplos.
+AR: MVC sin sobreañadidos.
+
+
+EXPLORACIÓ COMPLEMENTÀRIA
+EN URGENCIAS
+Analítica: función renal conservada, iones normales. ALT 1.21, resto ok.
+Rx tórax: hilios engrosados de forma bilateral. Aumento de la trama broncovascular.
+ECG: RS a 60lpm. No alteraciones agudas de la repolarización.
+TC Craneal: ASPECTS 10. ACP P1 Derecha con presencia de mismatch en todo el territorio.
+
+EN PLANTA DE NRL
+-TAC CONTROL 24h post-trombolisis: Infarto establecido occipital parasagital derecho. Aparición de foco de sufusión hemorrágica parietal subcortical superior izquierdo.
+-Analítica de ingreso: función renal conservada, iones no alterados. Perfil hepático con ALT levemente aumentado 0.81 µkat/L, resto correcto. Perfil lipídico com mínimo descenso de HDL colesterol 1.03 mmol/L. Perfil tiroideo, folatos y cobalaminas normales. Hemograma correcto, VSG normal. Coagulación correcta. Serología (anti core IgG) VHB positivo, Hepatitis B anticossos (EIA) (anti e) Positiu. Hepatitis B anticossos (EIA) (anti superfície)
+24.81 IU / ml. Resto negativo. Hb1Ac 5.7%.
+-RMN: Imágenes de infarto establecido en territorio posterior dque afecta al núcleo talámico y  a la región subcortical del lóbulo occipital (puntiforme). Foco de micro sangrado parietal subcortical izquierdo. Estenosis severa de arteria cerebral posterior derecha en su segmento P2.
+-ETT: Ventrículo izquierdo no dilatado ni hipertrófico con función sistólica conservada y sin segmentarismos. Función diastólica normal. Ventrículo derecho no dilatado, normocontráctil. Aurículas no dilatadas. Válvula aórtica trivalva. Flujo aórtico normal, insuficiencia ligera. Raiz aórtica y aorta ascendente no dilatadas. Válvula mitral morfológicamente normal, con ligera insuficiencia. Insuficiencia tricuspídea ligera que permite estimar una PAPs de 31 mmHg. Flujo pulmonar normal. Vena cava inferior no dilatada. No se observa derrame pericárdico.
+
+EVOLUCIÓ CLÍNICA
+Ingresa para estudio y control evolutivo de ACP derecha tratado con trombolisis en fase aguda y angiografía diagnóstica (en el momento de la realización de TEV, trombo ya recanalizado con tratamiento trombolítico). Se mantiene al paciente durante 72 horas en Unidad de Ictus con buenos controles tensionales y episodio de 3.5seg de taquicardia ventricular sin otra alteración en telemetría. Se realiza TAC craneal 24h post-trombolisis con imagen de infarto establecido occipital parasagital derecho y aparición de foco de sufusión hemorrágica parietal subcortical superior izquierdo. Se inicia AAS.
+
+Informe d'alta d'hospitalització
+
+
+
+
+
+Como parte del estudio vascular se solicita analítica de ingreso en la que destaca perfil hepático con ALT levemente aumentado 0.81 µkat/L, resto correcto y perfil lipídico com mínimo descenso de HDL colesterol 1.03 mmol/L. Serología (anti core IgG) VHB positivo, se completa estudio de VHB compatible con infección pasada / inmunización. Se completa el estudio con RMN cerebral que informa de infarto establecido en territorio posterior que afecta al núcleo talámico y a la región subcortical del lóbulo occipital (puntiforme) con foco de micro sangrado parietal subcortical izquierdo. La AngioRMN objetiva estenosis severa de arteria cerebral posterior derecha en su segmento P2, junto con ETT normal y Holter SRAA. sin evidencia de arritmias. Holter pendiente al alta.
+
+Desde el punto de vista clínico el paciente presenta mejoría sintomática durante el ingreso. En el momento del alta NIHSS de 1 a expensas de hiposensibilidad hemicuero izquierdo sin otros hallazgos. Rankin:1. Buena tolerancia oral, sedestación y deambulación sin complicaciones. Rehabilitación desde el inicio. No intercurrencias durante el ingreso. Se orienta el caso como ictus ACP derecha tratado con trombolisis de etiología indeterminada. Ante hallazgo de estenosis significativa de ACP, se realizará AngioTC de forma diferida para establecer causa aterotrombótica. Controles por NRL-_SS_ (ReSala).
+
+DIAGNÒSTICS
+434.01 Trombosi cerebral, amb infart cerebral
+
+TRACTAMENT I RECOMANACIONS A L'ALTA
+Tromalyt 300mg. 1 comprimido cada día. Resto sin cambios.
+
+CONTROL
+Neurología según resultados.
+
+DESTINACIÓ A L'ALTA:	A DOMICILI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Validat per: _NAME_	Col·legiat: _ID_
+
+26.01.2017
+Pàgina 1 de 3

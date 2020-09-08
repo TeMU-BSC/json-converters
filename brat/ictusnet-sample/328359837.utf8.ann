@@ -1,0 +1,67 @@
+T0	SECCION_MOTIVO_DE_INGRESO 476 490	MOTIU D'INGRÉS
+T1	Trombolisis_intravenosa 550 561	trombolisis
+T2	SECCION_ANTECEDENTES 578 589	ANTECEDENTS
+T3	SECCION_ANTECEDENTES_QUIRURGICOS 794 818	Antecedentes quirúrgicos
+T4	SECCION_SITUACION_FUNCIONAL 848 863	Situación basal
+T5	SECCION_TRATAMIENTO_HABITUAL 942 960	MEDICACIÓ HABITUAL
+T6	SECCION_PROCESO_ACTUAL 1159 1172	PROCÉS ACTUAL
+T7	TAC_craneal 1948 1950	TC
+T8	Hora_TAC 1957 1962	13:38
+#0	AnnotatorNotes T8	13:38
+T9	Trombolisis_intravenosa 2135 2139	rTPA
+T10	Trombectomia_mecanica 2321 2333	Trombectomía
+T11	Hora_inicio_trombectomia 2372 2377	14:35
+#1	AnnotatorNotes T11	14:35
+T12	Hora_primera_serie_trombectomia 2399 2404	14:42
+#2	AnnotatorNotes T12	14:42
+T13	Trombolisis_intravenosa 2544 2548	rtPA
+T14	SECCION_EXPLORACION_FISICA 2811 2828	EXPLORACIÓ FÍSICA
+T15	SECCION_EXPLORACIONES_COMPLEMENTARIAS 3165 3190	EXPLORACIÓ COMPLEMENTÀRIA
+T16	TAC_craneal 3423 3433	TC Craneal
+T17	TAC_craneal 3530 3533	TAC
+T18	SECCION_EXPLORACIONES_COMPLEMENTARIAS_EN_PLANTA_DE_NEUROLOGIA 3699 3719	Analítica de ingreso
+T19	SECCION_EVOLUCION 5028 5044	EVOLUCIÓ CLÍNICA
+T20	Trombolisis_intravenosa 5113 5124	trombolisis
+T21	Trombectomia_mecanica 5201 5204	TEV
+T22	Trombolisis_intravenosa 5233 5257	tratamiento trombolítico
+T23	TAC_craneal 5447 5458	TAC craneal
+T24	Trombolisis_intravenosa 6860 6871	trombolisis
+T25	SECCION_DIAGNOSTICOS 7061 7072	DIAGNÒSTICS
+T26	SECCION_TRATAMIENTO_Y_RECOMENDACIONES_AL_ALTA 7120 7155	TRACTAMENT I RECOMANACIONS A L'ALTA
+T27	SECCION_CONTROL 7215 7222	CONTROL
+T28	SECCION_DESTINO_AL_ALTA 7253 7272	DESTINACIÓ A L'ALTA
+T29	Trombolisis_intravenosa 3551 3562	trombolisis
+T30	Trombolisis_intravenosa 5468 5479	trombolisis
+T31	Fecha_de_alta 355 365	26.01.2017
+#3	AnnotatorNotes T31	2017-01-26
+T32	Hora_de_alta 366 371	16:20
+#4	AnnotatorNotes T32	16:20
+T33	Fecha_de_ingreso 412 422	17.01.2017
+#5	AnnotatorNotes T33	2017-01-17
+T34	Fecha_inicio_sintomas 1221 1242	el pasado 17 de Enero
+#6	AnnotatorNotes T34	2017-01-17
+T35	Hora_inicio_sintomas 1265 1270	12:30
+#7	AnnotatorNotes T35	12:30
+T36	Hora_llegada_hospital 1416 1421	13:20
+#8	AnnotatorNotes T36	13:20
+T37	Fecha_llegada_hospital 1221 1242	el pasado 17 de Enero
+#9	AnnotatorNotes T37	2017-01-17
+T38	Ictus_isquemico 7103 7118	infart cerebral
+T39	mRankin_previa 865 873	Rankin:0
+T40	ASPECTS 1978 1988	ASPECTS 10
+T41	NIHSS 2465 2472	NIHSS 3
+T42	NIHSS 2662 2669	NIHSS 2
+T43	NIHSS_previa 3107 3114	NIHSS 1
+T44	ASPECTS 3435 3445	ASPECTS 10
+T45	Tratamiento_antiagregante 5639 5642	AAS
+T46	mRankin_alta 6655 6663	Rankin:1
+#10	AnnotatorNotes T39	0
+#11	AnnotatorNotes T40	10
+#12	AnnotatorNotes T41	3
+#13	AnnotatorNotes T42	2
+#14	AnnotatorNotes T43	1
+#15	AnnotatorNotes T44	10
+T47	NIHSS_alta 6572 6582	NIHSS de 1
+#16	AnnotatorNotes T47	1
+#17	AnnotatorNotes T46	1
+T48	Tratamiento_antiagregante_alta 7156 7164	Tromalyt

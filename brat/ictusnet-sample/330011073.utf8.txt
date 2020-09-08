@@ -1,0 +1,94 @@
+_LOCATION_) Telèfon _SS_   _CONTACT_
+Telèfon IDI (Ressonància i TAC) _CONTACT_
+Telèfon ICO _CONTACT_
+Nº Història Clínica: _ID_
+Cognoms, Nom: _NAME_
+NºEpisodi: _ID_
+CIP: _ID_
+Sexe: Home
+Data de Naixement: _DATE_   Edat: 83 Anys
+NIF/DNI: _ID__NAME_; _NAME_
+Informe d'epicrisi
+14:00:00
+30.01.2017
+_LOCATION_
+_SS_ NEUROLOGIA
+CP
+ABS
+Servei Data d'alta
+_LOCATION_
+_CONTACT_
+AGUTS 28.01.2017
+Adreça
+Telèfon Procedència Data d'ingrés Atès per
+
+
+
+MOTIU D'INGRÉS
+Dèficit motor dret i dificutlat pel llenguatge
+
+ANTECEDENTS
+ANTECEDENTS PERSONALS
+no AMC
+No hàbits tòxics coneguts
+Independent per les activitats bàsiques de la vida diària
+
+ANTECEDENTS PATOLÒGICS
+No es coneixen antecedents patològics, no feia revisions al CAP
+
+MEDICACIÓ HABITUAL
+No
+
+PROCÉS ACTUAL
+Home de 82 anys que a les 17:30 hores al casal de la Vaqll d'en bas presenta una afàsia i hemiplègia dreta. El SEma ctiva CI a les 18:30 hores.
+
+EXPLORACIÓ FÍSICA
+
+Somnolència, pref oculocefàlica   ala esquerra, HHD per confrontació, hemiplègia dreta, afàsia., parèsia facial central dreta.NIHSS:12222/24040/01300=23
+
+EXPLORACIÓ COMPLEMENTÀRIA
+AS: anodina, (s'adjunta)
+
+TC crani: Infart isquèmic establerta la regió frontal i insular esquerra corresponent al territori superficial de la ACM esquerra. No s'observen signes de transformació hemorràgica. TC crani: esborraments solcs a insula esquerra, ASPECTS 8. AngioTC: estenosis TICA esquerra amb trombus a M2 (divisió anterior) TC perfu: mismatch del 50-60%
+
+ECG: ritme sinusal..
+
+Informe d'epicrisi
+
+
+
+EVOLUCIÓ CLÍNICA
+Amb orientaicó diagnòstica d'ictus isquèmic en terriori d'ACMe d'etiologia indetermianda donades les hores d'evolució, manca de recuperació clínica i resultat del Tc cranial es decideix inciar tracament fibrinolític ( pes estimat 70kg, bolus de 6.3mg a les 19.5h, perfusió de 56mg a les 20.56h). Donat el resultat de l'angioTC que mostra trombus proximal a ACMe i manca de recuperació amb el tractament fibrinolític es contacta amb guardia de neurovascualr de _SS_, sent acceptat el trasllat.
+A l'arribada a _SS_ no és possible fer trombectomia de rescat per infart isquèmic ja establert, pel que el paient torna al nsotre cnetre on ignressa a la unitat d'ictus
+
+A la seva arribada epxloraicó neurològica similar a l'atenció a urgències, somnolent però es desperta, afàsia, hemiplègia dreta (NIHSS = 02202/24040/00300 = 19).
+Durant el 28.1 al matí inicia quadre agut de desaturació i menor resposta a estímuls, pel que, amb col·laboraicó de medicina interna i UCI s'optimitza tractament amb broncodilatadors i oteràpia, no osbervant resposta significtiva inicial al tractament. Donat mal pronòstic de l'infart i manca de resposta a mesures mèdiques pel quadre respiratori, es parla conjuntament amb la família i ja llavors es decideix no aplicar mesures ssives. Es manté            tractament broncodilatador i s'inicia tratcamnt amb morfina pel distress respiratori. Cap a les 20h inicia saturació correcta 91% amb ulleretes nasals, pel que es retira sedació i es deixa en evolució. S'orienta com a broncoespasme sever amb hipòxia mantinguda i psoteriorment recueprada
+S'osberva descens de segment ST a derivacions anteriors i es realizta corba de troponines amb ascens inicial i descens psoterior. Donat que s'ha acordat no aplicar mesures ssives, es desestima també realitzar proves agressives per descartar patologia isquèmica cardíaca.
+Durant el 29.1 es manté hemodinàmciamet estable, requereix oteràpia amb ventimask però on mostra signees de broncoespasme ni distress respiratori, neurològicament es manté en estat comatós, amb manca de resposta a estimuls. S'informa al família del mal pronòstic funcional i vital el pacient i entenen la situació.
+
+finalment el pacient és èxitus el 30.1.2016 a les 9h. S'objectiva absènciad e signes vitals, ECG pla. Es certifica èxitus, es signa el certificat, i s'informa la família.
+
+
+
+
+
+
+
+DIAGNÒSTICS
+436/5 Ictus
+
+
+
+
+
+
+
+
+
+
+
+
+Validat per: _NAME_	Col·legiat: _ID_
+
+30.01.2017
+Pàgina 1 de 2

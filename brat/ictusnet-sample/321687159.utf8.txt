@@ -1,0 +1,214 @@
+_LOCATION_ Tel. _CONTACT_
+e-mail: _CONTACT_
+Nº Història Clínica: _ID_
+Cognoms, Nom: _NAME_
+NºEpisodi: _ID_
+CIP: _ID_
+Sexe: Home
+Data de Naixement: _DATE_   Edat: 66 Anys
+NIF/DNI: _ID__NAME_; _NAME_; _NAME_; _NAME_; _NAME_;
+Informe d'alta d'hospitalització
+17:42:53
+11.01.2017
+_LOCATION_
+_SS_ NEUROLOGIA
+CP
+ABS
+Servei Data d'alta
+_LOCATION_
+_CONTACT_; _CONTACT_
+DOMICIL/RES.SOC 08.01.2017
+Adreça
+Telèfon Procedència Data d'ingrés Atès per
+
+
+
+MOTIU D'INGRÉS
+Episodios de hemiparesia izquierda autolimitada
+
+ANTECEDENTS
+Hombre de 66 años. Independiente para las actividades de la vida diaria. Trabaja en una fábrica mRS 0. Sin alergias medicamentosas conocidas. Fumador 20cigarrillos/día desde hace 35 años. Enolismo leve habitual.
+
+
+Antecednetes Patológicos:
+-	Niega conocimiento de patologías crónicas. Hace más de 30 años que no consulta a un médico (solo controles en trabajo).
+
+Intervenciones quirúrgicas:
+-	Apendicectomía
+
+MEDICACIÓ HABITUAL
+No toma.
+
+PROCÉS ACTUAL
+El 08.01.17 presenta dos episodios autolimitados de segundos de duración de alteración sensitivo-motora del hemicuerpo izquierdo, que se han iniciado de manera brusca y se han recuperado rápidamente ad-integrum. No han tenido algún desencadenante claro.
+
+Al sufrir el segundo episodio alrededor de las 17.00 horas, sus compañeros llaman al SEM, que objetiva paresia con posterior recuperación. A su llegada a Urgencias está asintomático.
+
+EXPLORACIÓ FÍSICA
+
+FC	72 bpm
+Tªaxi 36.0 ºC
+FR	rpm Tªrec  ºC
+TA s	138 mmHg SAT O2 98 %
+TA d   91 mmHg Pes Kg
+
+En urgencias:
+Glicemia capilar: 147mg/dL
+AC: tonos cardíacos rítmicos, sin soplos carotídeos ni torácicos. AR: murmullo vesicular conservado.
+Neurológico: inciailmente completamente asintomático. NIHSS = 0.
+
+En sala de neurosonología:
+Al terminar examen, presenta cuadro súbito de hemiplegia izquierda faciobraquicrural con componente superior y disartria, proporcionada, sin alteración sensitiva. Sin afasia, extinción, asomato/anosognosia ni negligencia. Sin alteraciones campimetricas ni de oculomotricidad, PINR. Babinski izqueirdo. NIHSS = 00000/2(04)(04)/00010 = 11.
+
+Informe d'alta d'hospitalització
+
+
+
+
+
+Tras rTPA: sin focalidad residual. NIHSS = 0.
+
+En unidad de ictus agudo:
+PA 130/74mmHg, FC 68lpm, SatO2 97% aire ambiente, afebril.
+AC: Rítmica. AP: murmullo vesicular conservado salvo leve hipofonesis basal derecha.
+NRL: Consciente y orientado en 3 esferas. Sin afasia, extinción, anoso/asomatognosia ni heminegligencia. Sin disartria. Sin paresia ni altreación sensitiva.
+NIHSS = 0.
+
+
+
+
+
+EXPLORACIÓ COMPLEMENTÀRIA
+En urgencias:
+
+-	TC craneal simple: No evidencia de lesiones isquémicas ni hemorrágicas agudas TC valorables.
+
+-	Estudio neurosonológico urgente:
+·	Trans craneal: Estudio de buena calidad, buena ventana. Temporal: ACAs, Sifones, ACPs simétricas y sin alteraciones. ACM izquierda con flujo normal alrededor de 60cm/s en toda su recorrido. ACM derecha con alising y velocidades de 130cm/s desde 60 a 50 mm de profundidad, con flujo posterior a la estenosis conservado, no amortiguado. Fosa posterior: no realizado por inicio de clínica en el paciente.
+·	Troncos: Estudio de calidad aceptable, mínimamente limitado por bifurcación alta más en lado izquierdo. Carótidas: ambas comunes, internas y externas se muestran normales (sin placas ateroscleróticas ni estenosis). Vertebrales: desde V0 hasta V2 no se observan alteraciones.
+·	Conclusión: Patrón compatible con trombo parcialmente recanalizado versus placa aterosclerótica que produce estenosis significativa en inicio de ACM derecha.
+
+-	Analítica:
+·	Hemograma: normal
+·	Hemostasia: normal.
+·	Bioquímica: glucemia, función renal, ionograma normales. PCR 28mg/L. Etanol indetectable.
+
+-	Electrocardiograma: ritmo sinusal a 70lpm, sin alteraciones de la repolarización.
+
+En unidad de ictus agudo:
+
+- Analítica:
+·	Bioquímica: Glucosa 111mg/dL, HbA1c 6%, Proteína 63.6 g/L, Creatinina 0.91mg/dL (FG 88), Urea 30 mg/dL, Urato 7.2 mg/dL, Fosfato 3.1 mg/dL, Magnesio 2.42 mg/dL, Sodio 142.3 mmol/L, Bilirrubina 0.63 mg/dL, Fosfatasa alcalina 87 U/L, ALT 23 U/L, GGT 51 U/L, LDH 135 U/L, CK 49 U/L, Osmolalidad 294 mOsm/Kg.
+·	Perfil lipídico: Triglicéridos82 mg/dL, Colesterol total 201 mg/dL, HDL-col 40.2 mg/dL, LDL-col 144 mg/dL.
+·	Perfil tiroideo: TSH 1.04.
+·	Marcadores tumorales: AFP 1.41 ng/mL, PSA 6.98 ng/mL, PSA libre 1.17 ng/mL, Cociente PSA libre/total 0.17.
+·	Proteinograma: sin alteraciones patológicas.
+·	
+Informe d'alta d'hospitalització
+
+
+
+
+
+- TC control tras 24 horas post rTPA: Aparición de un área de baja atenuación de localización en núcleo lenticular-brazo posterior de cápsula interna derecha hallazgos compatibles con lesión isquémica subaguda de ramas de ACM derecha sin evidenciarse signos de transformación hemorrágica.
+
+-	Rx tórax: Cardiomegalia. Sin evidencia de alteraciones pleuropulmonares agudas.
+
+-	Estudio neurosonológico (9/1/2017):
+·	Estudio Transcraneal: Flujo algo acelerado de forma generalizada. A nivel de a.carótida interna terminal derecha destaca región con flujo aliasing y aceleración hasta 168cm/seg compatible con estenosis leve Vs patrón TIBI IV. Resto de aa.intracraneales con flujos dentro de la normalidad. Aa.vertebrales y basilar  hasta 94 mm de profundidad sin alteraciones
+·	Estudio de troncos supraaórticos: Grosor íntima media discretamente elevado en ambos ejes carotídeos. Ausencia de placas en bifurcaciones o en aa.carótidas internas. a.vertebrales ortodrómicas y sin alteraciones del flujo durante todo su recorrido.
+·	Conclusión: Posible estenosis leve a nivel de a.carótida interna terminal derecha.
+
+-	Estudio neurosonológico de control (11/1/2017): Flujo simétrico en ambos sifones y ACMs. En ACMs (70-80cm/s a 50mm de profundidad) y en  sifones carotídeos (velocidad 120 mm/s bilateral).
+·	Estudio de shunt derecha-izquierda: de Valsalva de excelente calidad, no pasan burbujas en basal ni en Valsalva.
+
+-	Ecocardiograma transtorácico: Ventrículo izquierdo no dilatado ligeramente hipertrófico con motilidad global y segmentaria normal. FE Simpson 61%. Aurícula izquierda ligeramente dilatada. Válvula mitral con velos finos y buena apertura. Raíz aórtica y aorta ascendente ligeramente dilatadas. Válvula aórtica trivalva con buena apertura. Cavidades derechas de dimensiones normales y motilidad de ventrículo derecho normal (TAPSE normal). No derrame pericárdico. Válvulas normofuncionantes Alteración diastólica de la relajación.
+
+EVOLUCIÓ CLÍNICA
+Varón de 66 años, independiente para las actividades de la vida diaria, trabaja en una fábrica, que desconoce antecedentes patológicos salvo tabaquismo de 35 años y enolismo ocasional leve, que es traído por SEM el 08.01.17 por presentar dos episodios autolimitados de alteración sensitivo motora en hemicuerpo izquierdo de inicio brusco y que resuelven ad-integrum en pocos minutos, uno de los cuales es objetivado por SEM.
+
+A su llegada a urgencias de nuestro centro, presenta constantes vitales normales. El examen físico es estrictamente normal. Un electrocardiograma y una analítica general son normales. Un TC no muestra alteraciones. El estudio neurosonológico urgente muestra una aceleración focal de flujo a nivel sifón-inicio de ACM derecha que puede ser compatible con estenosis ateromatosa intracraneal versus émbolo parcialmente recanalizado a ese nivel coincidiendo con la aparición de un nuevo episodio de focalidad neurológica de las mimas características de los previos, llegando a puntuar NIHSS de 11. Por dicho motivo y tras confirmar que no presenta ningún criterio de exclusión se inicia perfusión de rTPA a las 17.47 horas (7.5 en bolus y 68 mg perfusión) TA pre tPA de 124/78mmHg. Al finalizar la perfusión, el paciente se encuentra completamente asintomático, NIHSS  de 0. Permanece ingresado en unidad de ictus agudos para monitorización clínica, metabólica y hemodinámica y se inicia tratamiento con atorvastatina a dosis de 80 mg.
+
+Informe d'alta d'hospitalització
+
+
+
+
+
+Durante su estancia en la Unidad de Ictus Agudo se mantiene clínicamente asintomático, sin volver a presentar episodios de focalidad neurológica. La glicemia a su llegada a la unidad fue de 143 mg/dL, presentando valores dentro de la normalidad en los días posteriores salvo otra determinación aislada de 145 mg/dL, para lo  cual no requirió hipoglucemiantes. La TA se ha mantenido en valores entre 120-140/70-85mmHg salvo pico  aislado en las primeras horas de 163/99 y a las 24h de 153/85, sin precisar tratamiento hipotensor. Tolera dieta y deambulación sin ayuda. A las 24 horas del tratamiento fibrinolítico, se realiza un TC craneal que muestra una lesión compatible con un ictus subagudo isquémico en lenticular-brazo posterior de cápsula interna derechos, sin transformación hemorrágica, por lo que se inicia doble antiagregación con AAS 300mg y carga de clopidogrel, ante la sospecha inicial de ateromatosis intracraneal que se ha comportado como un capsular-warning.
+
+Como pruebas complementarias, se realizó estudio neurosonológico de control que mostró a nivel de arteria carótida interna terminal derecha región con flujo aliasing y aceleración hasta 168cm/seg compatible con estenosis leve contra patrón TIBI IV. Se realizó ecocardiograma transtorácico que mostró aurícula izquierda, raíz aórtica y aorta ascendente ligeramente dilatadas y alteración diastólica de la relajación, sin otras alteraciones significativas. En los estudios neurosonológicos de control inicialmente se observó un patrón TIBI IV, y dos días después, simetría de ambas ACMs y ambos sifones carotídeos, además de un estudio de shunt de óptima calidad que resultó negativo. Una analítica con hemograma, hemostasia, perfil lipídco, magnesio, calcio, fosfato, hemoglobina glicada, TSH y proteinograma que no muestra alteraciones. Los marcadores tumorales (CA 15.3, CA 19.9, CEA, aFP y PSA) son bajos o normales. La monitorización electrocardiográfica contínua durante los 4 días de ingreso  no evidencia arritmias embolígenas.
+
+Se termina orientando como ictus isquémico de territorio profundo de ACM derecha de etiología indeterminada tras estudio completo y mecanismo probablemente embólico (posibilidad de embolismo recanalizado versus aterotrombótico) clínicamente síndrome de alarma capsular motor derecho, tratado con rTPA. A pesar de la normalización del patrón DTC que va a favor de émbolo recanalizado al estar pendiente de estudio RNM está próxima semana se decide mantener la doble antiagregación y estatinas a dosis altas hasta ver resultado para modificarlo retirando uno de los antiagregantes y ajustando o estatinas en la visita de CCEE de control despues de la RNM.
+Al alta: Barthel = 100
+NIHSS = 0
+mRS = 2
+
+DIAGNÒSTICS
+1	- Ictus isquémico de territorio profundo (LACI) de ACM derecha de probable mecanismo embólico y etiología indeterminada tras estudio completo
+2	- Tabaquismo.
+3.- Trombolisisendovenosa
+
+TRACTAMENT I RECOMANACIONS A L'ALTA
+-	Dieta baja en grasas y azúcares refinados. Dieta mediterránea.
+-	Dejar tabaco.
+-	Realizar ejercicio físico diario aeróbico, al menos media hora por día.
+-	
+Informe d'alta d'hospitalització
+
+
+
+
+-	Aspirina 300mg cada 24 horas de manera indefinida.
+-	Clopidogrel 75mg cada 24 horas. Detener a los 3 meses (alrededor del 11.04.17).
+-	Ranitidina 300mg cada 24 horas de manera indefinida.
+-	Atorvastatina 80mg cada 24 horas de manera indefinida.
+
+CONTROL
+-	Resonancia magnética craneal con angio intracraneal (PROTOCOLO NAVIGATE) en nuestro centro el 20.01.17 a las 09.00 horas. Presentarse media hora antes.
+-	Control en consultas externas de neurología con Dra. _NAME_ el 20.02.17 a las 09.30 horas.
+
+DESTINACIÓ A L'ALTA:	A DOMICILI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Validat per: _NAME_	Col·legiat: _ID_
+
+11.01.2017
+Pàgina 1 de 5

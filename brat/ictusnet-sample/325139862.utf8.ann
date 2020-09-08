@@ -1,0 +1,34 @@
+T0	SECCION_ANTECEDENTES_PATOLOGICOS 782 798	Historial médico
+T1	SECCION_SITUACION_FUNCIONAL 1465 1480	Situación basal
+T2	SECCION_TRATAMIENTO_HABITUAL 1540 1560	Tratamiento habitual
+T3	SECCION_EXPLORACION_FISICA_EN_URGENCIAS 1637 1661	Exploración física UCIES
+T4	SECCION_EXPLORACIONES_COMPLEMENTARIAS 2085 2119	Pruebas complementarias realizadas
+T5	TAC_craneal 2770 2780	TC craneal
+T6	SECCION_DESTINO_AL_ALTA 4030 4045	Destino al alta
+T7	SECCION_DIAGNOSTICOS_SECUNDARIOS 4164 4188	Diagnósticos secundarios
+T8	SECCION_PROCEDIMIENTOS 4278 4292	Procedimientos
+T9	SECCION_TRATAMIENTO_AL_ALTA 4352 4371	Tratamiento al alta
+T10	SECCION_RECOMENDACIONES 4465 4505	Recomendaciones de prevención secundaria
+T11	Fecha_de_ingreso 326 336	12/01/2017
+#0	AnnotatorNotes T11	2017-01-12
+T12	Fecha_inicio_sintomas 489 499	12/01/2017
+#1	AnnotatorNotes T12	2017-01-12
+T13	Hora_inicio_sintomas 506 510	4:00
+#2	AnnotatorNotes T13	4:00
+T14	Hora_llegada_hospital 775 780	11:57
+#3	AnnotatorNotes T14	11:57
+T15	Fecha_llegada_hospital 489 499	12/01/2017
+#4	AnnotatorNotes T15	2017-01-12
+T16	Ictus_isquemico 4121 4137	Sindrome lacunar
+T17	Lateralizacion 4154 4161	derecho
+T18	NIHSS_previa 1890 1897	NIHSS 4
+T19	NIHSS 2076 2083	NIHSS 3
+T20	NIHSS 3610 3617	NIHSS 2
+T21	mRankin_alta 4047 4063	Rankin (alta): 1
+T22	NIHSS_alta 4065 4081	NIHSS (alta):  2
+T23	Tratamiento_antiagregante_alta 4374 4377	AAS
+#5	AnnotatorNotes T18	4
+#6	AnnotatorNotes T19	3
+#7	AnnotatorNotes T20	2
+#8	AnnotatorNotes T21	1
+#9	AnnotatorNotes T22	2

@@ -1,0 +1,34 @@
+T0	SECCION_TIPO_DE_INGRESO 389 403	Tipus d'ingrés
+T1	SECCION_DIAGNOSTICO_PRINCIPAL 515 535	Diagnòstic principal
+T2	SECCION_PROCESO_ACTUAL 622 637	Història Actual
+T3	TAC_craneal 1677 1687	TC cranial
+T4	Hora_TAC 1701 1705	8:34
+#0	AnnotatorNotes T4	08:34
+T5	Trombolisis_intravenosa 1781 1804	tractament fibrinolític
+T6	SECCION_EXPLORACION_FISICA 1896 1913	Exploració física
+T7	SECCION_EXPLORACIONES_COMPLEMENTARIAS 2343 2371	Resum proves complementàries
+T8	TAC_craneal 2954 2964	TC cranial
+T9	SECCION_EVOLUCION 3284 3305	Evolució i comentaris
+T10	Trombectomia_mecanica 1851 1870	rescat endovascular
+T11	Fecha_de_ingreso 372 382	19/01/2017
+#1	AnnotatorNotes T11	2017-01-19
+T12	Fecha_de_alta 426 436	20/01/2017
+#2	AnnotatorNotes T12	2017-01-20
+T13	Hora_de_alta 437 442	08:30
+#3	AnnotatorNotes T13	08:30
+T14	Ictus_isquemico 545 557	AVC ISQUEMIC
+T15	Fecha_llegada_hospital 1134 1142	18/01/17
+#4	AnnotatorNotes T15	2017-01-18
+T16	Hora_llegada_hospital 1341 1345	8:13
+#5	AnnotatorNotes T16	08:13
+T17	mRankin_previa 1091 1100	mRankin 0
+T18	ASPECTS 1719 1731	ASPECTS 3/10
+T19	NIHSS_previa 2331 2339	NIHSS 20
+T20	ASPECTS 3091 3111	ASPECTS: 3/10 puntos
+T21	NIHSS 3362 3368	NIH 20
+#6	AnnotatorNotes T17	0
+T22	NIHSS_previa 1426 1434	NIHSS 20
+#7	AnnotatorNotes T22	20
+#8	AnnotatorNotes T18	3
+#9	AnnotatorNotes T19	20
+#10	AnnotatorNotes T20	3

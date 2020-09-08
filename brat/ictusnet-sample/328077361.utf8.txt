@@ -1,0 +1,189 @@
+_LOCATION_ Tel. _CONTACT_
+e-mail: _CONTACT_
+Nº Història Clínica: _ID_
+Cognoms, Nom: _NAME_
+NºEpisodi: _ID_
+CIP: _ID_
+Sexe: Dona
+Data de Naixement: _DATE_   Edat: 73 Anys
+NIF/DNI: _ID__NAME_; _NAME_; 
+_NAME_; _NAME_
+Informe d'alta d'hospitalització
+11:58:53
+25.01.2017
+_LOCATION_
+_SS_ NEUROLOGIA
+CP
+ABS
+Servei Data d'alta
+_LOCATION_
+_CONTACT_; _CONTACT_
+DOMICIL/RES.SOC 22.01.2017
+Adreça
+Telèfon Procedència Data d'ingrés Atès per
+
+
+
+MOTIU D'INGRÉS
+Afasia. Isquèmic. Infart cerebral
+
+ANTECEDENTS
+Dona de 73 anys sense al·lèrgies medicamentoses conegudes ni hàbits tòxics. mRS de 0
+
+-	Hipertensió arterial.
+
+MEDICACIÓ HABITUAL
+Amlodipino 5mg/dia
+
+PROCÉS ACTUAL
+El 22.01.17 cap a les 15:30h presenta quadre d'alteració per la emissió del llenguatge, canviant paraules per altres i amb fluència disminuïda. La simptomatologia millora en una hora però donat que persisteix lleu alteració del llenguatge decideix consultar a urgències acompanyada de la família. Arriba al nostre centre a les 16:45h.
+
+
+EXPLORACIÓ FÍSICA
+
+FC	84 bpm
+Tªaxi 36.0 ºC
+FR	rpm Tªrec  ºC
+TA s	149 mmHg SAT O2 96 %
+TA d   86 mmHg Pes Kg
+
+En Urgencias:
+Conscient i orientada, llenguatge amb fluència lleugerament disminuida, nomina evoca i repeteix. Lectura correcte. Borrament del solc nasogenià dret. Oculmotricitat extrínseca normal. No defecte campimètric per confrontació. Resta de parells cranials normals. No dèficit motor ni sensitiu. No dismetries. RCP flexor bilateral.
+NIHSS: (0.0.0) 0.0 / 1 (0.0)(0.0) / 0.0.1.0.0 = 2.
+Tons cardíacs rítmics. No bufs carotidi.
+
+En Unidad de Ictus Agudo:
+Concient i orientada en els tres eixos, llenguatge fluent, nomina, evoca i repeteix correctament. no parafasias. Oculomotricitat i campimetria normals. Mínima paresia facial central dreta. Força i sensibilitat normal a extremitats. NIHSS: 1 (facial).
+
+Al alta:
+AC: Tonos cardíacos rítmicos.
+Consciente, orientada, colaboradora. Lenguaje sin disartria ni elementos afásicos. Campimetría por confrontación normal. MOE sin paresias. Pares craneales sin alteraciones. Fuerza y sensibilidad táctil conservadas, no extinción. No dismetría. NIHSS: 0.
+
+Informe d'alta d'hospitalització
+
+
+
+EXPLORACIÓ COMPLEMENTÀRIA
+EXPLORACIÓNS COMPLEMENTÀRIAS A URGÈNCIES
+
+ECG: Ritme sinusal amb extrasístoles, eix a 0º, PR de 0.12s, QRS estret.
+
+Analítica urgent:
+Leucocits 9600 (N 57%, L 33%), Hb 14.3, Htc 42%, plaquetes 228.000 TP 100%, fibrinogen 411mg/dl, TTPA 32s.
+Glucosa 134, urea 50, creat 0.98, Na 140, K 4, PCR 2.9.
+
+TC cranial urgent (22.01.2017 17:20h): Hiperdensidad en segmento M2  de ACM izquierda compatible con trombosis de la misma. Múltiples infartos isquémicos lacunares crónicos en ganglios basales bilaterales. Importante desmielinización por isquemia crónica. No se observan lesiones isquémicas ni hemorrágicas agudas.
+Sin otros hallazgos TC valorables.
+Oclusión de  ACM izquierda,  de  su  segmento  M2.  Hipoplasia  de  segmento  P1  de  arteria cerebral  posterior izquierda. Resto de estructuras arteriales cervicales y arteriales y venosas craneales permeables.
+
+EXPLORACIÓNS COMPLEMENTÀRIAS DURANT L'INGRÉS
+
+Analítica general: Hemograma: 7500 leucòcits (N 58.7%, L 31.9, Mo 5.3, Eo 3.8, Ba 0.3), Hb 13.1g/dl, Hto 39.2%, plaquetes 213000. Bioquímica: glucosa 100 mg/dl, Hb glicada 5.3%, proteïna 60.6g/l, albúmina 38.2g/l, urea 38 mg/dl, creatinina 0.81, calcio 8.9, sodio 142mmol/l, potasio 4, bilirrubina 0.58 mg/dl, FA 75 U/l, ALT 17. Triglicèrids
+63  mg/dl, colesterol  167  (HDL  52.8,  LDL  101).  Proteïnograma sin  alteraciones. TSH  2.911mcuI/ml, tiroxina 0.97ng/dl.
+
+TC cranial de control 24h (23.01.2017.17:15h):  Sin cambios respecto a TC previa. No se observan lesiones isquémicas agudas.
+
+Monitorizació electrocardiográfica contìnua durant 4ies: es detecta fibril·lació auricular.
+
+Rx  tórax  (24.01.2017):  Silueta  cardíaca  de  tamaño  límite  alto  de  la  normalidad. Ambos  hilios  pulmonares simétricos de tamaño y morfología normal. Sin afectación de espacio aéreo. Sin derrame pleural valorable.
+
+Ecocardiograma transtoràcic: Funció sistòlica i diastòlica del ventricle esquerre conservada. Sense valvulopaties significatives. Sense imatges de vegetacions o trombus intracavitaris valorables per ETT.
+
+RMN cerebral (25.01.17): important  leucoaraiosi,  grau  3 de Fazekas. Lesió coritcal a lóbul parietal posterior esquerre de aspecte clarament embólic que restrigeix a l'ADC.
+
+EVOLUCIÓ CLÍNICA
+Dona de 73 anys amb hipertensió, deportista i independet per activitats diaries (mRankin 0) que el 22.01.17 presenta clínica d'alteració de l'emissió del llenguatge de inici sobtat mentre estava en repòs, pel que acudeix al nostre centre per medis propis.
+
+Informe d'alta d'hospitalització
+
+
+
+
+
+A l'arribada a urgències destaca milloria clínica significativa, amb de 2 hores d'evolució. Està hemodinàmicament estable i afebril, en ritme sinusal. A l'exploració destaca borrament del solc nasogenià dret i llenguatge amb fluència disminuida (NIHSS de 2). Es realitza TC cranial urgent que no mostra lesions isquèmiques agudes (ASPECTS 10) i angioTC de TSA i intracranial en la que s'observa un oclusió de ACM esquerre segment M2. Malgrat la poca simptomatologia de la pacient, al presentar una oclusió arterial, i al no presentar contraindicacions, es decideix administrar tractament fibrinolític endovenós amb rTPA. (Constants prebolus  142/60, FC 98, Glicèmia 95 mg/dl). S'administra bolus de 6mg de alteplasa a les 18:45h i 57mg en perfusió la següent hora sense complicacions al box de semicríticts d'urgències. Ingressa a UIA per estudi i vigilancia.
+
+Durant la seva estada a l'unitat d'ictus es manté amb constants vital normals amb amlidipino 5mg/24h. A nivell mèdic no presenta complicacions. A nivell neurològic es troba assimptomàtica en menys de 24 hores tras l'inici. Un TC control post rTPA (24 hores) no mostra cap lesió.
+
+Com proves complementàries, una analìtica general no troba alteracions (tampoc de la glicada ni perfil lipìdic), un ecocardiograma transtoràcic normal. La monitroizaciò electrocardiogràfica durant 4 dies mostra fibril·lació auricular que inicia el quart dia, assimptomática i es manté sense tornar a ritme sinusal al cap de dozte hores.
+
+S'orienta com ictus embolic d'etiologia cardioembólica per fibril·lació auricular paroxística d'inici inciert (la malalt refereix que ja havia tingut palpitacions fa temps) i s'inicia tractament anticoagulant amb acenocumarol i enoxaparina i frenador amb bisoprolol.
+
+Per bona evolució i mantenirse assimptomàtica, es decideix l'alta a domicili. Al alta: NIHSS 0, Barthel 100, mRS 2
+DIAGNÒSTICS
+1.-Ictus isquémic (PACI) de territori ACM esquerre, amb oclusió de branca2 M2, d'etiología cardioembolica i mecanisme embólic, tractat amb rTPA.
+2 - Fibril·lació auricular de début 3.- HTA
+
+
+TRACTAMENT I RECOMANACIONS A L'ALTA
+-	Dieta cardiosaludable
+-	Ejercici físic regular aeróbic al menys 30 minuts per dia.
+·	Esperar al menys un mes per a iniciar entrenament
+·	Durant les primeras setmanas tras l'alta, repos relativo.
+-	Acenocumarol "Sintrom" segons pauta de Hematologia
+-	Enoxaparina "Clexane" 60mg cada 12 hores segons pauta de Hematologia
+
+
+CONTROL
+-	Control amb el seu mèdic de capsalera de la hipertensió i la fibril·lació auricular
+-	Control a consultes externes de neurologia del nostre centra amb Dra. _NAME_ el 25.04.17 a les 12.00 hores.
+-	
+Informe d'alta d'hospitalització
+
+
+
+
+-	Resonancia magnética cerebral, pendent de programar.
+-	Control al CAP Dr. _NAME_ per pauta de Sintrom
+
+DESTINACIÓ A L'ALTA:	A DOMICILI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Validat per: _NAME_	Col·legiat: _ID_
+
+25.01.2017
+Pàgina 1 de 4

@@ -1,0 +1,180 @@
+_LOCATION_) Telèfon _SS_  972 _CONTACT_
+Telèfon IDI (Ressonància i TAC) _CONTACT_
+Telèfon ICO _CONTACT_
+Nº Història Clínica: _ID_
+Cognoms, Nom: _NAME_
+NºEpisodi: _ID_
+CIP: _ID_
+Sexe: Home
+Data de Naixement: _DATE_   Edat: 48 Anys
+NIF/DNI: _ID__NAME_; _NAME_
+Informe d'alta d'hospitalització
+13:39:13
+01.02.2017
+_LOCATION_
+_SS_ NEUROLOGIA
+CP
+ABS
+Servei Data d'alta
+_LOCATION_
+_CONTACT_; _CONTACT_; _CONTACT_
+ATEN.PRIMÀRIA 30.01.2017
+Adreça
+Telèfon Procedència Data d'ingrés Atès per
+
+
+
+MOTIU D'INGRÉS
+ICTUS
+
+ANTECEDENTS
+Antecedentes Personales:
+-	No alergias medicamentosas conocidas.
+-	Ex-fumador desde hace 11 meses de 8-10 cigarrillos al día. Consumo de alcohol moderado.
+-	Situación basal: independiente para ABVD. Vive en domiclio con su mujer. Trabaja de fontanero. mRS 0.
+
+Antecedentes Patológicos:
+-	HTA en tto farmacológico desde hace 1 año.
+-	Intervenido de artroscopia rodilla dcha.
+-	Estenosis uretral en seguimiento por urologia.
+-	Hipoacusia.
+-	Vitíligo.
+
+-	Infarto subagudo de la PICA bilateral de predominio derecha el pasado 19/12/2016.
+*El dia 21/12 presenta empeoramiento del nivel de consciencia, anartria, tetraparesia de predominio derecho, por lo se repite la TC cranial + angioTC que muestra herniación amigdalar e hidrocefalia supratentorial con signos de actividad.
+*Se realiza drenaje ventricular externo, sin mejoría, por lo que se decide realizar craniectomia descompresiva urgente
+*Requirió ingreso en UCI, complicado con broncoaspiración durante el ingreso.
+
+MEDICACIÓ HABITUAL
+ADIRO 100MG ACID ACETILSALICILIC 1 x 24 h. ENALAPRIL/HIDROCLOROTIAZIDA 20/12,5MG 1 x 24 h.
+PARACETAMOL 1 G 1 x 8 h. Si cal
+
+
+PROCÉS ACTUAL
+Paciente con antecedentes antes descritos que el día 29/1 es traído a urgencias por inicio súbito alrededor de las 19:30 h de episodio de alteración del lenguaje con desorientación. No fiebre ni otra sintomatología asociada desde el alta hospitalaria previa. Avisan a MAP que acude a domicilio y activa código ICTUS siendo derivado a nuestro centro llega a las 00:30 hrs.
+
+EXPLORACIÓ FÍSICA
+
+Informe d'alta d'hospitalització
+
+
+
+
+
+TA 156/96 FC 76lpm FR 16 rpm SATO2 96% Tº 36,5ºC
+
+Paciente hemodinámicamente estable, eupnéico y afebril. Tonos cardiacos rítmicos sin soplos. Murmullo vesicular conservado sin ruidos sobreañadidos. Abdomen con peristalsis conservada, blando, depresible, sin signos de irritación peritoneal.
+
+Exploración Neurológica: vigil, orientado temporal, parcialmente espacial (dificultad por bloqueo del lenguaje), y en persona, afasia transcortical motora, leve disartria (residual), leve dismetría braquial derecha (residual) sin otra foclaitat neurológica.
+
+NIHSS: 01000/00000/10110 = 4
+
+EXPLORACIÓ COMPLEMENTÀRIA
+ECG: ritmo sinusal
+
+TAC craneal: Canvis post-craniectomia descompresiva suboccipital dreta. Infart subagut del territori vascular de la PICA dreta ja conegut estable. Resta de parènquima cerebral, cerebelós i del tronc encefàlic sense alteracions densitomètriques valorables. Práctica estabilitat de la mida del SV en relació a estudis previs. Estructures de la línia mitja centrades. Cisternes de la base lliures. L'estudi angiogràfic posa de manifest un afilament progressiu de les branques insulars i corticals de l'ACM esquerra, sense clara obstrucció, però que arriben a estenosar-se pràcticament a nivell més distal on pràcticament no s'objectiva permeabilitat vascular. A valorar possibilitat de vasculitis o vasoespasme. Resta de vasos arterials del polígon de Willis, sistema vértebro-basilar i territori carotídi sense alteracions rellevants.
+CONCLUSIÓ Afilament progressiu de les branques insulars i corticals de l'ACM esquerra, sense clara obstrucció, però que arriben a estenosar-se pràcticament a nivell més distal on pràcticament no s'objectiva permeabilitat vascular. A valorar possibilitat de vasculitis o vasoespasme. No s'observen clares lesions isquèmiques establertes en l'estudi TC simple.
+
+Analítica sanguínea: Eritròcits * 4.27 M/mcL, Hemoglobina * 12.1 g/dL, Hematòcrit * 36 %, Volum corpuscular mitjà
+85.2 fL, Hemoglobina corpuscular mitja 28 pg, C.H.C.M. 33 g/dL, A.D.E. 13.2 %, Plaquetes 435 K/mcL, Volum plaquetari mig 9.5 fL, Leucòcits * 14.76 K/mcL, Neutròfils * 81.4 %, Limfòcits * 11.7 %, Monòcits 5.2 %, Eosinòfils
+1.2 %, Basòfils 0.5 %, Neutròfils 12 K/mcL, Limfocits 1.7 K/mcL, Monocits 0.8 K/mcL, Eosinofils 0.2 K/mcL, Basofils 0.1 K/mcL, Eritroblasts-Sang 0 %, Tasa protrombina 94 %, Tasa protrombina (INR) 1.02, Temps de cefalina (TTPA) 30.3 segons, Temps de cefalina (ratio) 1, Fibrinogen (deduit) * 591 mg/dL, Equilibri acidobàsic-Venós Sang venosa, pHv 7.46, Pressio parcial de CO2 42 mmHg, Pressio parcial d´oxigen 32 mmHg, Bicarbonat actual 29.9 mmol/L, Contigut de CO2 31.2 mmol/L, Exces de base 5.5 mmol/L, Exces de base (ecf) 6.1 mmol/L, Bicarbonat estandar 28.4 mmol/L, Saturacio oxigen (mesurada) 66 %, Glucosa * 116 mg/dL, Urea 29 mg/dL, Creatinina 0.77 mg/dL Ió sodi * 134 mEqu/L, Ió potasi 4.7 mEqu/L, Proteïna C reactiva 0.36 mg/dL.
+
+Tira de orina: negativa
+
+Estudi ultrasonogràfic (UCIEs i 31/01/17):
+-	Dúplex de troncs supraaòrtics: mínima ateroamtosi, no estenosis a ACIs ni AVs.
+-	Dúplex transcranial: no signes de vasoespasme, ambdues ACM a nivell proximal i fins branques m2-m3 amb velocitats entre 60-70cm/seg, IP al voltant d'1, no punts d'estenosi. ACA ortodròmiques.
+-	Shunt D-E: negatiu (basal i amb maniobra de Valsalva)
+-	
+Informe d'alta d'hospitalització
+
+
+
+
+
+CONCLUSIÓ: estudio normal.
+
+
+RM cerebral (31/1):No muestra lesiones agudas. Estabilidad de los cambios postIQ a craniectomia descompressiva de fosa posterior + corticectomia parcial hemicerebelo derecho por infart PICA derecha. Cisternas basales y peritronculares libres.
+Angio-RM: normal
+
+
+EVOLUCIÓ CLÍNICA
+Paciente con antecedentes de infarto subagudo de la PICA bilateral de predominio derecha el pasado 19/12/2016, a quien se le realizó craniectomia descompresiva por herniación amigdalar e hidrocefalia supratentorial. El día 29/1 estando en su casa presenta cuadro súbito de alteración del lenguaje y desorientación se activa código ICTUS, con TC que no muestra trombo intracraneal y sin lesiones sugerentes de isquemia (dado antecedentes el paciente no es tributario de rTPA). Con la OD de ICTUS minor ACM izquierda ingresa a unidad de ICTUS bajo vigilancia semi-intensiva (TA, ECG y saturación para pulsioxímetro).
+A las 24 horas el paciente se mantiene neurológicamente estable. Se inicia ingesta oral que es bien tolerada.
+Inicia rehabilitación física.
+Se solicita RM cerebral que descarta lesiones agudas, y ecodoppler con SHUNT que es negativo
+Dada la estabilidad clínica y hemodinámica del paciente y la mejoría a nivel funcional, consensuado con el paciente y la familia se decide alta a domicilio.
+En la exploración física a la alta se encuentra: vigil, orientado. No alteración del lenguaje. MOE y campimetría por confrontación normal. No déficits motores ni sensitivos. Dismetría hemicuerpo derecho.
+
+Se plantea la posibilidad de ictus minor, poco probable (estudio RMN / Angio-RM normal). Poco probable crisis parcial compleja. Más probable Sd. confusional ya que todas las pruebas realizadas resultaron negativas para isquemia.
+
+Meningocele, revisado por NCR, que no le da valor, no requiere tto y refieren que no justifica clínica. Escalas a alta:
+- NIHSS: 00000/00000/20000: 2
+-	Barthel:100
+-	Rankin:0
+
+DIAGNÒSTICS
+298.9/8	Focalidad inespecífica (psoible sindrome confusional en contexto patoloigía de base) 436/5	Infarto cerebeloso (PICA) bilateral.
+Craniectomía descompresiva 401.9/2	HTA
+
+PROCEDIMENTS
+88.91 Imatge per ressonància magnètica de cervell i tronc cerebral
+
+Informe d'alta d'hospitalització
+
+
+
+
+88.71 Ultrasò diagnòstic de cap i coll. Determinació desviació de la línia mediana cerebral,ecoencefalografia
+88.71 Ultrasò diagnòstic de cap i coll. Determinació desviació de la línia mediana cerebral,ecoencefalografia
+
+TRACTAMENT I RECOMANACIONS A L'ALTA
+Continuar medicación habitual
+
+CONTROL
+Control por Médico de cabecera Fisioterapia domiciliaria.
+Control CCEE neurología y neurocirugía ya programadas en ingreso previo.
+
+DESTINACIÓ A L'ALTA:	A DOMICILI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Validat per: _NAME_	Col·legiat: _ID_
+
+31.01.2017
+Pàgina 1 de 4

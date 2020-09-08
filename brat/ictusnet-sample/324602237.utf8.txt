@@ -1,0 +1,99 @@
+I.CLINIC DE NEUROCIÈNCIES NEUROLOGIA
+_NAME_	NHC: _ID_
+
+
+Sexo/Sexe: Masc.	Fecha nac./Data naix.: _DATE_	Edad/Edat: 65 años Dirección/Adreça: _LOCATION_	CP: _LOCATION_
+Municip. (Prov.): _LOCATION_  ABS:_SS_	Tel.:_CONTACT_
+As.: _NAME_	CIP: _ID_	NASS: _ID_
+Nº epis.: _ID_	Tipo/Tipus: HOSPIT.	Ingres.: 12.01.2017 Serv: NEUROLOGIA	UO Enf.: G064 SALA G DE NEUROLOGIA	Hora: 17:44:39
+Facult. de ref.: _NAME_
+
+
+
+
+Tipo ingreso/Tipus ingrés: Urgent	Motivo/Motiu alta: Dom. Familiar
+Diag.:
+FIBRILACION AURICULAR (427.31)
+ICTUS ARTERIA CEREBRAL MEDIA IZQUIERDA (434.91)
+Proc.:
+TC PERFUSIÓN () TROMBECTOMÍA MECÁNICA ()
+
+
+
+
+INFORME CLÍNICO ALTA / INFORME CLÍNIC ALTA
+
+Motivo de consulta / Motiu de consulta
+Alteración del lenguaje.
+
+Antecedentes e historia previa / Antecedents i història prèvia
+Paciente de 65 años, sin AMC ni hábitos tóxicos. Vive con su esposa. Autónomo para las ABVD.
+*	Antecedentes patológicos: 1. Hipercolesterolemia en tratamiento farmacológico.
+*	Tratamiento actual: Simvastatina 40 mg/24h.
+
+Proceso actual / Procés actual
+Paciente que encontrándose en la vía pública el 12/01 sobre las 16h  presenta hemiparesia derecha y alteración del lenguaje en forma de mutismo.
+
+Exploración física / Exploració física
+Frecuencia  respiratoria  (rpm)  14,  Glicemia  capilar  (mg/dl)  91,  PAS  (mm  Hg)  142,  PAD  (mm  Hg)  68, Pulsioximetría (%) 100. 12/ 01/2017-23:00:00 : Tª axilar (ºC) 36.
+HDE, afebril.
+AC:tonos rítmicos sin soplos AR: MVC sin sonidos sobreañadidos.
+NRL: Consciente, ojos abiertos de forma espontánea. Lenguaje espontáneo hipofluente, con abundantes parafasias fonémicas y semánticas. No nomina ni repite. Obedece órdenes sencillas de forma fluctuante. Mirada centrada, sin limitaciones. Reflejo de amenaza disminuído en el lado derecho. PINR. Paresia facio (leve) braquio (distal 4/5). No déficit motor en extremidades inferiores. NIHSS 11.
+
+Laboratorio / Laboratori
+*ECG: Ritmo sinusal, sin alteraciones de la repolarización.
+*ANALITICA SANGUINEA DE INGRESO: Colesterol total 151 mg/dL (HDL 37, LDL 91). Perfil renal e ionograma sin alteraciones. Hemograma sin alteraciones. Hb glicada 6%.
+
+
+Radiología / Radiologia
+*RADIOGRAFIA DE TORAX: ICT dentro de la normalidad. No se obsrevan infiltrados ni condensaciones.
+*TC CRANEAL MULTIMODAL:
+-	TC CRANEAL BASAL: No hay hemorragia intracraneal. Parénquima cerebral sin pérdida de la diferenciación cortico- subcortical. ASPECTS 10.
+-	TC PERFUSION CEREBRAL: Territorio afectado: superficial de la ACMI. TTP: Retraso a nivel frontal, parietal, temporal superior e insular. CBF: Disminuido en territorio prácticamente superponible al de retraso del TTP. CBV: No se observan focos de caída del volumen cerebral. Porcentaje del área penumbra: >200%.
+-	ANGIO-TC EXTRA E INTRACRANEAL: Leve ateromatosis que no condiciona estenosis en arco aórtico y salida/segmentos proximales de troncos supraaórticos. Ateromatosis calcificada en ambas bifurcaciones carotídeas, con estenosis de aprox. el 50% en el origen de la carótida interna izquierda. Se aprecia un STOP en el paso de contraste en una rama M1 distal/M2 proximal de la ACMI,. El resto de principales arterias cerebrales intracraneales.
+*TC CRANEAL DUAL: Hiperdensidad lineal en cisura silviana izquierda así como otros focos de hiperdensidad a nivel temporal posterior y parietal izquierdo, que tras el postprocesado de las imágenes corresponde prácticamente en su totalidad a sangrado agudo.
+*TC CRANEAL CONTROL (17/1): Resolución parcial de hemorragia en cisura silviana. No otras alteraciones.
+
+Intervenciones quirúrgicas / Intervencions quirúrgiques
+*TRATAMIENTO AGUDO MECANICO DEL ICTUS: Se realiza punción femoral a las 17:59. La primera serie angiográfica de ACII (18:09) pone de manifiesto oclusión de segmento M1 distal (rama M2 anterior parcialmente abierta) Se utiliza sistema de trombectomía Trevo 6X25 y tras realizar seis pases se consigue revascularización TICI 3 a las 19:24. (Serie final 19:29)
+
+Evolución / Evolució
+ALTA:
+1.	ICTUS ISQUÉMICO EN TERRITORIO DE ARTERIA CEREBRAL MEDIA IZQUIERDA (ACMI).
+2.	FIBRILACIÓN AURICULAR DE NOVO.
+Paciente que presenta debilidad de extremidades derechas y mutismo de forma brusca. A su llegada a nuestro centro destaca a la exploración afasia de predominio motor y leve paresia braquial distal derecha (NIHSS 11). La neuroimagen inicial(TC craneal multimodal) muestra en el angioTC oclusión en M1 distal con hipoperfusión extensa en territorio de ACMI. Ante la ausencia de contraindicaciones se realiza tratamiento fibrinolítico y posteriormente tratamiento endovascular consiguiendose una recanalización completa del vaso (TICI3). La neuroimagen de control (TC dual y RM cerebral) muestran lesión isquémica parcheadas a nivel de cisura silviana izquierda territorio ACMI y foco de HSA en cisura silviana izquierda. TC de control el día 17/1 muestra mejoría. La monitorización cardiaca se evidencia en ECG ritmo de fibrilación auricular con respuesta ventricular rápida.
+Se trata de un ictus de ACMI de etiología cardioembólica por fibrilación auricular de novo, candidato a tratamiento endovascular y fibrinolítico. Como complicación presentó conversión hemorrágica en forma de HSA en cisuria silviana. Ante sangrado intracraneal se inicia tratamiento anticoagulante con Apixaban.
+Durante su estancia en neurología presenta mejoría de la sintomatología quedando asíntomatico desde el punto de vista neurológico y con control adecuado del rítmo cardiaco. Dada la estabilidad clínica se decide alta a domicilio con control en CCEE de Neurología.
+Al traslado: NIHSS:0;
+TOAST: Cardioembólico;
+mRS:1
+
+Plan terapéutico / Pla terapèutic
+
+
+
+Eliquis 5 mg. Vía oral. Cada 12 horas.
+
+Omeprazol tarbis 20 mg. Vía oral. Una vez al día, en el desayuno. Paracetamol tarbis 1000 mg. Vía oral. Cada 8 horas.
+Bisoprolol cor mylan. 1,25 MG (Medio comprimido de 2,5mg). Vía oral. Una vez al día, en el desayuno. Atorvastatina tevagen 20 mg. Vía oral. Una vez al día, en la cena.
+Otras recomendaciones / Altres recomanacions
+Visita de control en consultas externas de Neurología según cita adjunta Control de factores de riesgo cardiovascular por su médico de cabecera.
+
+
+
+Firma/Signatura1: _NAME_	Firma/Signatura2: _NAME_ Categoría: Resident 2	Categoría: Consultor/a 1
+Nº Matrícula HCP: _ID_	Nº Matrícula HCP: _ID_ Fecha/Data: 18.01.2017
+Hora: 14:08:46
+
+Docum.: _ID_
+Hist. Clínica: _ID_
+El _SS_ ha incorporado sus datos al Fichero de Pacientes, para tratarlos con fines sanitarios.
+Puede ejercer sus derechos de acceso, rectificación, cancelación y oposición, así como obtener mas información en la Unidad de Atención al Cliente.
+Vers. 00
+Pag. 2 de
+3
+Episod.: _ID_
+_SS_ ha incorporat les seves dades al Fitxer de Pacients, per a tractar-los amb finalitats sanitàries. Pot exercir els seus drets d'accés, rectificació, cancel·lació i oposició, i obtenir més informació a la Unitat d'Atenció al Client.
+_SS_
+_LOCATION_) _LOCATION_) Tel. _CONTACT_ Fax _CONTACT_
+_CONTACT_/

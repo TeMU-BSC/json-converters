@@ -1,0 +1,73 @@
+_LOCATION_ Tel. _CONTACT_
+_CONTACT_
+Informe Alta Hospitalització
+_NAME_
+HC: _ID_
+
+>
+
+
+Adreça: _LOCATION_	Data naix.: _DATE_ Població: _LOCATION_	Sexe: FEMENI
+Provincia: _LOCATION_	CIP: _ID_
+País: _LOCATION_	NASS: _ID_
+Telèfon: _CONTACT_	DNI o Tarja Residència: _ID_
+
+
+Servei: Neurologia	Data ingrés a URG: 18/01/2017 08:16
+Unitat clínica: Neurologia	Data hospitalització: 19/01/2017 22:43
+Tipus d'ingrés: Urgències	Data alta: 20/01/2017 08:30
+Proveïdor de Serveis: Servei Català de la Salut	Destí: 11 - Defunció
+
+
+
+Diagnòstic principal:
+
+434.91 AVC ISQUEMIC
+
+
+
+
+
+
+Al·lèrgies:
+
+AMOXICIL.LINA+CLAVUL.LANIC. CIPROFLOXACINA.
+
+Història Actual:
+
+Pacient de 69 anys, FFSS conservades i autònoma per les ABVD, vidua des de fa un any, viu amb un fill. Al·lèrgia a ciprofloxacino i amoxicil·lina-clavulànic. Antecedents d'HTA com a FRCV conegut, no DL ni  DM. Neoplàsia de mama (IQ tumorectomia juliol 2013, pT1c pN0. Va fer RT i actualment en tractament amb letrozol. Sd. ansiosa-depressiva. No cardiopneumogastropatia conegudes. Pendent de 1a visita NRL per AIT en forma d'afàsia l'octubre de 2016.
+mRankin 0.
+
+
+És portada a urgències el dia 18/01/17 per clínica del despertar al ser trobada pel seu fill amb vòmit biliós, dificultat per articulació de la parla, desviació oculocefàlica a la dreta i hemiplègia dreta.
+A l'arribada a urgències a les 8:13h, activat codi ictus intrahospitalari, és valorat per Neurologia, que objectiva NIHSS 20 a expenses de desviació forçada de la mirada conjugada a la dreta, heminegligència esquerra, disàrtria lleu, hemianòpsia esquerra, PFSN esquerra, hemiplègia esquerra i hemianestèsia esquerra.
+Davant la sospita d'ictus d'ACM dreta es realitza TC cranial urgent a les 8:34h, que mostra ASPECTS 3/10 pel que es desactiva codi ictus. No tributària a tractament fibrinolític per ser ictus del despertar i no tributària a rescat endovascular per manca de missmatch.
+
+Exploració física:
+
+TA 178/68mmHg, FC 56x', FR 14x', SatO2 100% a l'aire, glucèmia 161mg/dl. AR: roncus generalitzats. CV: TCR, no bufs. No edemes a EEII ni signes de TVP. Polsos perifèrics presents i simètrics.
+
+NRL: desviació forçada de la mirada conjugada a la dreta, heminegligència esquerra, disàrtria lleu, hemianòpsia esquerra, PFSN esquerra, hemiplègia esquerra, hemianestèsia esquerra, Babinski esquerre, RCP dret indiferent. NIHSS 20.
+
+
+Resum proves complementàries:
+
+Laboratori:
+
+-	Analítica (17/1/17): Leucòcits *12.98 x 10^9/L, Hematies 4.5 x 10^12/L, Hemoglobina 125 g/L, Hematò crit 0.38 L/L, Volum corpuscular mig 84.4 fL, Hemoglobina corpuscular mitja 27.8 pg, Conc. Hb. corpuscular mitja 329 g/L, Plaquetes 269 x 10^9/L, Neutròfils (%) *77 %, Neutròfils *10 x 10^9/L, Limfòcits (%) *19.3 %, Limfòcits 2.5 x 10^9/L, Eosinòfils (%) 0.3 %, Eosinòfils 0.04 x 10^9/L, Basòfils (%) 0.2 %, Basòfils 0.03 x 10^9/L, Monòcits (%) *3.2 %, Monòcits 0.41 x 10^9/L, Glucosa *181 mg/dL, Urea 41  mg/dL, Creatinina *0.97 mg/dL, Sodi 139 mEq/L.
+
+Imatge:
+
+-	TC cranial + perfusió + angioTC: Infarto isquémic agudo del territorio de la ACM derecha, con oclusión a nivel del segmento M1 proximal. ASPECTS: 3/10 puntos. No se observa Missmatch en el estudio de perfusión cerebral.
+
+Altres proves:
+
+-	EKG: RS a 53x', QRS estret a 0º, QTc 0.52, sense alteracions agudes de la repolarització.
+
+Evolució i comentaris:
+
+Pacient de 69 anys amb ictus isquèmic d'ACM dr. TACI (NIH 20) no revascularitzable que ingresa a Neurologia el dia 20/01/17. Abans de la visita (08:30h) infermeria en avisa per ECG en asistòlia. Es certifica la mort, per probable arítmia cardíaca.
+
+_LOCATION_, 26/01/2017
+_NAME_ (Nº col _ID_
+Nom i cognoms metge: _NAME_ (Nº col: _ID_Pàg.: 1/2

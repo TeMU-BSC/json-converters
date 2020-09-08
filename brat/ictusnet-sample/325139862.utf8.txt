@@ -1,0 +1,127 @@
+
+INFORME DE ALTA
+Medicina Interna. Unidad de neurología. Unidad de Ictus.
+
+
+
+Paciente: _NAME_
+
+
+Número de historia clínica: _ID_
+
+
+Fecha de nacimiento y sexo: _DATE_  HOME	Edad:  Edat Régimen económico:  CatSalut-Propi CIP: _ID_	ABS/CAP:		Médico de cabecera: Dirección: _LOCATION_  Teléfono: _CONTACT_
+Fecha ingreso servicio: 12/01/2017	Fecha alta servicio: Data alta servei
+
+
+Fecha ingreso hospitalización:  data ingrés	Fecha alta hospitalización:
+
+
+
+Paciente varón de 65 años que el día 12/01/2017 a las 4:00 h se despierta para ir al baño, asintomático, únicamente refiere " nerviosismo". A las 07:00 h se despierta con déficit sensitivo motor facio-braquio crural, que ocasiona caída al suelo. Avisan al CAP, donde se activa el código ictus. Acuden a UCIAs via SEM a las 11:57
+
+Historial médico
+
+
+No AMC. Ex fumador No enolismo
+-Obesidad
+-HTA con cifras habituales d e130/80
+-No DM
+-DLP
+-Nunca EVC o retiniano previo
+-Episodio sincopal estudiado en _LOCATION_ hace 5 años. Coronariografia que el paciente desconoce resultado. Ecocardio en noviembre 2010 con card. HTA leve y con VI correcto ( no dilatado). La FE es correcta. Leve hipocinesia de VI Ligera dilatación de raiz Ao. Se realizó gammagrafía que es negativa para isquemia con ECG con bloqueo de rama izquierda.) La familia explica arritmia cardiaca.
+-No pneumo, gastro,nefropatia conocida
+-Hepatitis en la juventud
+-No prostatismo
+-IQ: polipo colonico. -Protesis de cadera derecha por Enf de Perthes.
+Situación basal: Independiente para ABVD. Sin deterioro cognitivo conocido
+Tratamiento habitual: Simvastatina 20 mg 0-0-1 , Enalapril 5mg  /24h , Atenolol 50mg 0,5 cpr/24h
+Exploración física UCIES:
+A su llegada, vigil, orientado , lenguaje normal, campimetria normal, mínima paresia facial derecha, con hipoestesia. Paresia crural derecha 3/5 con hipoestesia braquio-crural
+RMP 2/5
+RCP indiferente derecho,  flexor izquierdo
+NIHSS 4
+
+PLANTA:
+Conciente, orientado, no disartria ni alteracion del lenguaje. PPCC normal.
+Fuerza hemiparesia derecha B 4/5, C 4/5. Sensibilidad: hipoestesia braquial derecha. RMP 2/5
+NIHSS 3
+
+Pruebas complementarias realizadas
+
+
+o	Analítica (ingreso): urea 55, crea 1.2, FG 63, na+ 141, k+ 4.6, bil total 1.64, AST 17, ALT 16, GGT 30,
+FA 77, calcio 9.5, fosforo 3.9, magnesio 2.20, prot totales 6.20, albúmina 3.9, colesterol 174, HDL
+45, LDL 102, triglicéridos 135,alb/crea orina 0.4,  TSH 1.03, virus hepatits negativo.
+
+o	Analítica (planta): glu 11, urea 56, crea 1.2,  FG 63, Na+ 143, k+ 4.5, AST 14, ALT 14, GGT 27, FA 73,
+proteinas  totales 6.1, albumina 3.7,  colesterol 127,  HDL 42, LDL 64, triglicéridos 103, PCR 2.49,
+Hb 16,6, VCM 88.1, HCM 28.7, leucocitos 5.90x10^3/ul, neutrófilos 69.7%., plaquetas  229000 TP
+1.12, Ttpa 1.03
+o	Sedimento de orina: no gérmenes.
+o	TC craneal : normal.
+o	Ecocardiogrma: Vi no dilatado, motilidad global normal. FE 45%. Ausencia de valvulopatia, no trombos intracavitarios.
+o	Doppler TSA: normal
+o	Doppler TC: no ventana transtemporal
+o	ECG: RS, eje 0, bloqueo de rama izquierdo.
+o	Angio RM craneal: No lesiones isquémicas agudas. Estudio angiográfico sin hallazgos significativos.
+
+
+Evolución y tratamiento realizado
+
+
+
+Durante su ingreso en planta se mantiene estable, con mejoría de la movilidad y estabilidad en la bipedestación y marcha sin ayudas técnicas. Valorado por fisioterapeuta, no necesita recurso de fisioterapia a domicilio
+Único pico febril el 16.01, se curso sedimento de orina que fue negativa  y analítica PCR 0.39, sin leucocitos.
+El paciente se encuentra aproximadamente como en la situación previa  al ingreso, con leve paresia en hemicuerpo derecho NIHSS 2
+
+Se trata de un paciente con síndrome lacunar sensitivomotor derecho que a pesar de no objetivar lesiones isquemicas agudas en la RMN ( dudosa imagen capsulolenticular izquierda)  ni alteraciones en la angioRMN de TSA ni ecocardio  se orienta como probable ictus de etiologia lacunar.
+
+Dada la buena evolucion se decide alta antiagregado y con ajuste de estatinas, con control de cifras tensionales por su MF.
+
+
+Destino al alta:
+Rankin (alta): 1  NIHSS (alta):  2
+
+
+Diagnósticos Diagnóstico principal
+o	Sindrome lacunar sensitivo motor derecho.
+
+Diagnósticos secundarios:
+o	Hipertensión arterial o	Dislipemico
+o	Prótesis de cadera derecha por Enf de Perthes.
+
+Procedimientos:
+o	Angio RM
+o	Fisioterapia
+o	Ecocardiografia, o	Analitica
+
+Tratamiento al alta
+
+
+AAS 300mg 1-0-0
+Atorvastatina 80mg 0-0-1 Enalapril 5mg   /24h Atenolol 50mg 0,5 cpr/24h
+
+
+
+Recomendaciones de prevención secundaria
+
+
+o	Caminar cada día, mínimo 1/2 hora
+o	Perder peso, hasta conseguir perímetro abdominal en hombres por debajo de 108 cm. y 88 cm. en mujeres.
+o	Dieta rica en verduras, frutas y legumbres.
+o	Mantener tensión arterial por debajo de 130 /80 mm. Hg. En diabéticos por debajo de 120/75
+o	Mantener cifras de colesterol total por debajo de 150, y LDL por debajo de 100. En diabéticos LDL por debajo de 70.
+o	Evitar el tabaco y el alcohol.
+
+
+
+Control por el médico de cabecera
+Control en NRL Dr _NAME_ en fecha programada
+
+
+Atentamente,
+
+Médico/s responsable/s: Dra _NAME_ /Dra _NAME_	Nº de colegiado: _ID_ /_ID_
+
+Firma
