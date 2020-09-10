@@ -7,11 +7,11 @@ Motivation:
 https://support.prodi.gy/t/importing-existing-custom-annotated-data-from-brat/821
 
 Usage:
-$ python3 brat2jsonl.py --txtfiles ./ictusnet-sample/*.txt --annfiles ./ictusnet-sample/*.ann --outfile ictusnet-sample.jsonl
+$ python3 brat2jsonl.py --txtfiles data/*.txt --annfiles data/*.ann --outfile data.jsonl
 
 Example:
 
-Input (./sample/ directory):
+Input (data/ directory):
 123.utf8.txt
 123.utf8.ann
 456.utf8.txt
@@ -19,7 +19,7 @@ Input (./sample/ directory):
 789.utf8.txt
 789.utf8.ann
 
-Output (converted.jsonl):
+Output (data.jsonl):
 {"text":"Apple updates its analytics service with new metrics","spans":[{"start":0,"end":5,"label":"ORG","note":"Tech company"}]}
 {"text":"Google updates its analytics service with new metrics","spans":[{"start":0,"end":6,"label":"ORG","note":"Tech company"}]}
 {"text":"Facebook updates its analytics service with new metrics","spans":[{"start":0,"end":8,"label":"ORG","note":"Tech company"}]}
@@ -29,11 +29,27 @@ import argparse
 import csv
 import json
 import sys
+import tokenize
 
+# Testing built-in python tokenizer 
+# with tokenize.open('small.txt') as f:
+#     tokens = tokenize.generate_tokens(f.read)
+#     for token in tokens:
+#         print(token)
 
 def brat_to_prodigy(txt_file, ann_file) -> dict:
-    with open(txt_file, 'r') as textfile:
+    meta = dict(file=txt_file)
+    text = str()
+    spans = list()
+    tokens = list()
+
+    with open(txt_file) as textfile:
         text = textfile.read()
+
+    # Throws a tokenize error on some txt files, such as '321108781.utf8.txt'
+    # with tokenize.open(txt_file) as f:
+    #     python_tokens = tokenize.generate_tokens(f.read)
+    #     tokens = [dict(text=token.string, start=token.start[1], end=token.end[1], id=i) for i, token in enumerate(python_tokens)]
 
     with open(ann_file) as tsvfile:
         note_rows, annotation_rows = list(), list()
@@ -49,7 +65,7 @@ def brat_to_prodigy(txt_file, ann_file) -> dict:
         span = dict(start=int(middle[1]), end=int(middle[2]), label=middle[0], note=note)
         spans.append(span)
 
-    prodigy_format = dict(text=text, spans=spans)
+    prodigy_format = dict(meta=meta, text=text, spans=spans, tokens=tokens)
     return prodigy_format
 
 
